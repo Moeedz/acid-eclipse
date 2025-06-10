@@ -29,6 +29,9 @@
       "block_order": [
         "message-1"
       ],
+      "custom_css": [
+        ".announcement-bar__message.text--small p {font-weight: bold !important;}"
+      ],
       "settings": {
         "announcement_bar_position": "non_sticky",
         "announcement_text_size": "normal",
