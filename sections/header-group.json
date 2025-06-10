@@ -99,14 +99,13 @@
         "mega_menu_RKk4fb"
       ],
       "custom_css": [
-        "a.header__icon-wrapper.tap-area.hidden-desk[href=\"/search\"] {display: none !important;}",
-        "a[href=\"/search\"] {display: none !important;}"
+        "img.header__logo-image {top: 7px !important; position: relative;}"
       ],
       "settings": {
         "enable_sticky_header": true,
         "logo": "shopify://shop_images/acid_eclipse_no_bg.png",
         "logo_max_width": 260,
-        "mobile_logo_max_width": 115,
+        "mobile_logo_max_width": 150,
         "navigation_menu": "main-menu",
         "sidebar_navigation_menu": "",
         "header_layout": "logo_center_search_open",
