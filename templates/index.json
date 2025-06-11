@@ -30,8 +30,8 @@
           "type": "image",
           "settings": {
             "text_position": "middle_center",
-            "subheading": "Tell your story",
-            "title": "Slide 1",
+            "subheading": "",
+            "title": "",
             "button_1_text": "",
             "button_1_link": "",
             "button_2_text": "",
@@ -273,11 +273,45 @@
         "section_radius": 0,
         "lazy": true
       }
+    },
+    "slideshow_jMx8Ry": {
+      "type": "slideshow",
+      "blocks": {
+        "image_paqNKq": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "image_paqNKq"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
     "custom_liquid_4xn6PC",
     "slideshow_TEPwmb",
-    "ss_featured_collection_17_WYpYME"
+    "ss_featured_collection_17_WYpYME",
+    "slideshow_jMx8Ry"
   ]
 }
