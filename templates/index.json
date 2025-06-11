@@ -280,8 +280,8 @@
         "image_paqNKq": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/INTENSELY_EFFECTIVE.png",
-            "mobile_image": "shopify://shop_images/VISIBLY_TRANSFORMATIVE_1.png",
+            "image": "shopify://shop_images/INTENSELY_EFFECTIVE_2.png",
+            "mobile_image": "shopify://shop_images/VISIBLY_TRANSFORMATIVE_2.png",
             "text_position": "middle_center",
             "subheading": "",
             "title": "",
@@ -315,12 +315,13 @@
         "item_N7FHxk": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/4_69a456f6-8eb0-4d46-b0e9-99d04e9eed2a.png",
             "tab_label": "",
             "subheading": "",
-            "title": "Image with text",
-            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
-            "button_text": "",
-            "button_link": ""
+            "title": "Our Story",
+            "content": "<p>Not just a regular skincare brand. Acid Eclipse is a lifestyle, a community. Dedicated to science-backed skincare, curating proven formulas for healthier, younger-looking skin. Because great skincare should be simple, effective, and affordable.</p>",
+            "button_text": "Read More",
+            "button_link": "shopify://pages/our-story"
           }
         }
       },
