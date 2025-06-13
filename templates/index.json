@@ -12,7 +12,6 @@
     "custom_liquid_4xn6PC": {
       "type": "custom-liquid",
       "disabled": true,
-      "name": "Custom Liquid",
       "settings": {
         "subheading": "",
         "title": "Have a Task for us?",
@@ -29,6 +28,8 @@
         "image_T9EWEm": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2025-06-12_at_22.54.58_5eae0eb8.jpg",
+            "mobile_image": "shopify://shop_images/dermaglow_homepage_b7ff5d08-7eda-4e6e-815e-4b192061b2dc.png",
             "text_position": "middle_center",
             "subheading": "",
             "title": "",
@@ -40,14 +41,13 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         }
       },
       "block_order": [
         "image_T9EWEm"
       ],
-      "name": "Slideshow",
       "settings": {
         "section_height": "auto",
         "transition_type": "sweep",
@@ -117,7 +117,6 @@
         "product_dYHAex",
         "product_NTG88L"
       ],
-      "name": "SS - Featured collection #17",
       "settings": {
         "heading": "<h2>New & Trending</h2>",
         "heading_custom": false,
@@ -300,7 +299,6 @@
       "block_order": [
         "image_paqNKq"
       ],
-      "name": "Slideshow",
       "settings": {
         "section_height": "auto",
         "transition_type": "sweep",
@@ -328,7 +326,6 @@
       "block_order": [
         "item_N7FHxk"
       ],
-      "name": "Image with text",
       "settings": {
         "reveal_on_scroll": true,
         "background_type": "full_width",
