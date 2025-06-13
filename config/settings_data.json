@@ -52,7 +52,7 @@
     "show_discount": true,
     "discount_mode": "saving",
     "product_color_display": "count",
-    "product_image_size": "natural",
+    "product_image_size": "square",
     "cart_type": "drawer",
     "cart_icon": "tote_bag",
     "cart_show_free_shipping_threshold": false,
