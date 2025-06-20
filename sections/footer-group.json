@@ -36,7 +36,7 @@
           "type": "newsletter",
           "settings": {
             "title": "Newsletter",
-            "content": "<p>A short sentence describing what someone will receive by subscribing</p>"
+            "content": "<p>Sign up for exclusive skincare tips and promotions.<br/></p>"
           }
         }
       },
@@ -55,9 +55,9 @@
       ],
       "settings": {
         "show_payment_icons": true,
-        "enable_follow_on_shop": false,
-        "show_country_selector": false,
-        "show_locale_selector": false
+        "enable_follow_on_shop": true,
+        "show_country_selector": true,
+        "show_locale_selector": true
       }
     }
   },
