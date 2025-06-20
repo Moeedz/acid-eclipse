@@ -338,6 +338,91 @@
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
       }
+    },
+    "ss_scrolling_logo_cloud_hwxie3": {
+      "type": "ss-scrolling-logo-cloud",
+      "blocks": {
+        "slide_ynUcyd": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_168a66f5-93e2-49a0-acf8-aed33659794c.png",
+            "link": ""
+          }
+        },
+        "slide_nz8Pjw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/5_01f84d14-e60b-4c92-b04d-8b06f36b5365.png",
+            "link": ""
+          }
+        },
+        "slide_9zbRaT": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/3_1eedd454-ed46-4e9e-b763-3e80d54fce47.png",
+            "link": ""
+          }
+        },
+        "slide_qF6TAL": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/1_35b5a3e8-0bc9-47b4-b12b-d77b3a48a222.png",
+            "link": ""
+          }
+        },
+        "slide_RgB6fn": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/6_90da75f7-c825-4382-b524-0453cca9de10.png",
+            "link": ""
+          }
+        },
+        "slide_6nNqtL": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/4_e36bab80-fc6c-4d7c-8d68-b4a867279577.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_ynUcyd",
+        "slide_nz8Pjw",
+        "slide_9zbRaT",
+        "slide_qF6TAL",
+        "slide_RgB6fn",
+        "slide_6nNqtL"
+      ],
+      "name": "SS - Scrolling Logo Cloud",
+      "settings": {
+        "ss-title": "Trusted by",
+        "heading_custom": false,
+        "heading_font": "assistant_n4",
+        "header_size": 30,
+        "header_align": "center",
+        "scrolling_velocity": 17,
+        "pause_hover": false,
+        "shadow": false,
+        "sliders_mt": 0,
+        "logo_padding_top": 0,
+        "logo_padding_bottom": 0,
+        "slider_gap": 30,
+        "slider_gap_mobile": 30,
+        "slider_direction": "left",
+        "icon_width": 120,
+        "header_color": "#121212",
+        "border_color": "#ffffff",
+        "background-color": "#ffffff",
+        "slider-background-color": "#ffffff",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 36,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
     }
   },
   "order": [
@@ -345,6 +430,7 @@
     "slideshow_TEPwmb",
     "ss_featured_collection_17_WYpYME",
     "slideshow_jMx8Ry",
-    "image_with_text_GfeQmq"
+    "image_with_text_GfeQmq",
+    "ss_scrolling_logo_cloud_hwxie3"
   ]
 }
