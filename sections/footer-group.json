@@ -1,1 +1,67 @@
-{"type":"footer","name":"Footer group","sections":{"footer":{"type":"footer","blocks":{"links_q4U33x":{"type":"links","settings":{"menu":"footer"}},"links":{"type":"links","settings":{"menu":"footer"}},"social_media_XEfPXK":{"type":"social_media","settings":{"title":"Follow us","content":""}},"newsletter_WzFQU3":{"type":"newsletter","settings":{"title":"Newsletter","content":"<p>A short sentence describing what someone will receive by subscribing<\/p>"}}},"block_order":["links_q4U33x","links","social_media_XEfPXK","newsletter_WzFQU3"],"custom_css":["p.footer__item-title.heading.heading--small {font-weight: bold !important; font-size: 22px !important;}","li.linklist__item a {font-family: \"Poppins\" !important; text-transform: capitalize !important;}",".footer__item-content a {font-family: \"Poppins\" !important; text-transform: lowercase !important;}",".footer__aside {display: none !important;}","@media screen and (max-width: 767px) {.footer__item-list {display: flex !important; flex-flow: column !important; text-align: -webkit-left !important; }}"],"settings":{"show_payment_icons":true,"enable_follow_on_shop":false,"show_country_selector":false,"show_locale_selector":false}}},"order":["footer"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "links_9PFWWk": {
+          "type": "links",
+          "settings": {
+            "menu": "policies"
+          }
+        },
+        "links_rBnC9M": {
+          "type": "links",
+          "settings": {
+            "menu": "about-us"
+          }
+        },
+        "links_q4U33x": {
+          "type": "links",
+          "settings": {
+            "menu": "footer"
+          }
+        },
+        "newsletter_WzFQU3": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Newsletter",
+            "content": "<p>A short sentence describing what someone will receive by subscribing</p>"
+          }
+        }
+      },
+      "block_order": [
+        "links_9PFWWk",
+        "links_rBnC9M",
+        "links_q4U33x",
+        "newsletter_WzFQU3"
+      ],
+      "custom_css": [
+        "p.footer__item-title.heading.heading--small {font-weight: bold !important; font-size: 22px !important;}",
+        "li.linklist__item a {font-family: \"Poppins\" !important; text-transform: capitalize !important;}",
+        ".footer__item-content a {font-family: \"Poppins\" !important; text-transform: lowercase !important;}",
+        ".footer__aside {display: none !important;}",
+        "@media screen and (max-width: 767px) {.footer__item-list {display: flex !important; flex-flow: column !important; text-align: -webkit-left !important; }}"
+      ],
+      "settings": {
+        "show_payment_icons": true,
+        "enable_follow_on_shop": false,
+        "show_country_selector": false,
+        "show_locale_selector": false
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
