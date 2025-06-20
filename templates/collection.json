@@ -23,6 +23,25 @@
         "quick_links": ""
       }
     },
+    "rich_text_EjJqYy": {
+      "type": "rich-text",
+      "name": "Rich text",
+      "settings": {
+        "subheading": "",
+        "title": "Skincare Products",
+        "content": "<p>For a skincare regime to work it needs to be kept<strong> up to date</strong>. We pride ourselves in making sure that the latest in science-backed skincare products are here, available to you.</p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "main": {
       "type": "main-collection",
       "settings": {
@@ -34,7 +53,7 @@
         "show_filter_group_name": false,
         "show_color_swatch": true,
         "open_first_filter_group": false,
-        "filter_position": "always_visible",
+        "filter_position": "drawer",
         "promotion_position": "top",
         "promotion_height": "small"
       }
@@ -42,6 +61,7 @@
   },
   "order": [
     "collection-banner",
+    "rich_text_EjJqYy",
     "main"
   ]
 }
