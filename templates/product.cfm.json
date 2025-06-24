@@ -16,10 +16,6 @@
           "type": "description",
           "settings": {}
         },
-        "quantity_selector_YVyjEc": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -28,6 +24,10 @@
             "color_mode": "variant_image",
             "size_chart_page": ""
           }
+        },
+        "quantity_selector_YVyjEc": {
+          "type": "quantity_selector",
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -43,8 +43,8 @@
       },
       "block_order": [
         "description_gLVVbJ",
-        "quantity_selector_YVyjEc",
         "variant_picker",
+        "quantity_selector_YVyjEc",
         "buy_buttons"
       ],
       "settings": {
