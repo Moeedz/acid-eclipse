@@ -107,7 +107,7 @@
       ],
       "name": "SS - Product videos #4",
       "settings": {
-        "videos_position": "below_buy",
+        "videos_position": "below_description",
         "heading": "<h3>Tap to play</h3>",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
@@ -197,7 +197,7 @@
         "heading_color": "#000000",
         "background_color": "#ffffff",
         "border_color": "#000000",
-        "margin_top": -20,
+        "margin_top": 24,
         "margin_bottom": 0,
         "padding_top": 0,
         "padding_bottom": 0,
