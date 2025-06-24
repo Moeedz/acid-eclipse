@@ -214,6 +214,98 @@
         "lazy": false
       }
     },
+    "ss_delivery_timer_jJzCLN": {
+      "type": "ss-delivery-timer",
+      "blocks": {
+        "item_apmHnc": {
+          "type": "item",
+          "settings": {
+            "days": 0,
+            "range": false,
+            "second_days": 0,
+            "weekend": true,
+            "title": "Order placed"
+          }
+        },
+        "item_ePnPny": {
+          "type": "item",
+          "settings": {
+            "days": 0,
+            "range": true,
+            "second_days": 1,
+            "weekend": true,
+            "title": "Dispatched"
+          }
+        },
+        "item_CQtM4Q": {
+          "type": "item",
+          "settings": {
+            "days": 4,
+            "range": true,
+            "second_days": 7,
+            "weekend": true,
+            "title": "Delivered"
+          }
+        }
+      },
+      "block_order": [
+        "item_apmHnc",
+        "item_ePnPny",
+        "item_CQtM4Q"
+      ],
+      "name": "SS - Delivery Timer",
+      "settings": {
+        "delivery_position": "below_buy",
+        "items_style": "first",
+        "heading": "Order by 2pm for dispatch same day.",
+        "heading_use_delivery": false,
+        "heading_custom": true,
+        "heading_font": "archivo_narrow_n6",
+        "heading_size": 15,
+        "heading_size_mobile": 15,
+        "heading_height": 50,
+        "heading_align": "left",
+        "heading_align_mobile": "left",
+        "items_mt": 20,
+        "items_gap": 0,
+        "item_padding_vertical": 10,
+        "item_padding_horizontal": 10,
+        "item_radius": 0,
+        "item_border_thickness": 1,
+        "item_arrow": true,
+        "icon_size": 38,
+        "icon_size_mobile": 36,
+        "date_custom": true,
+        "date_font": "archivo_narrow_n6",
+        "date_size": 13,
+        "date_size_mobile": 13,
+        "date_height": 70,
+        "date_mt": 10,
+        "title_custom": false,
+        "title_font": "archivo_narrow_n4",
+        "title_size": 12,
+        "title_size_mobile": 12,
+        "title_height": 130,
+        "title_mt": 10,
+        "item_border_color": "#DEDEDF",
+        "icon_bg_color": "#4D4D4D",
+        "icon_color": "#FFFFFF",
+        "line_color": "#4D4D4D",
+        "date_color": "#787878",
+        "title_color": "#787878",
+        "heading_color": "#787878",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 32,
+        "padding_bottom": 40,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "border_thickness": 0
+      }
+    },
     "product-content": {
       "type": "product-content",
       "blocks": {
@@ -268,6 +360,7 @@
   "order": [
     "main",
     "ss_product_videos_4_BkaDBJ",
+    "ss_delivery_timer_jJzCLN",
     "product-content",
     "170103446944ead705"
   ]
