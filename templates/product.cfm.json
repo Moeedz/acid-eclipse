@@ -397,59 +397,16 @@
     "ss_testimonial_12_xj7gFi": {
       "type": "ss-testimonial-12",
       "blocks": {
-        "slide_gwp4M4": {
-          "type": "slide",
-          "settings": {
-            "media_style": "image",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "controls": false,
-            "stars_count": 5,
-            "text": "<p>the perfect candle replacement, obsessed with the lamps!</p>",
-            "author": "<p><strong>@tracer</strong></p>"
-          }
-        },
-        "slide_xGmEmz": {
-          "type": "slide",
-          "settings": {
-            "media_style": "image",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "controls": false,
-            "stars_count": 5,
-            "text": "<p>Our kids bring them everywhere, specially when doing puzzles and drawings</p>",
-            "author": "<p><strong>@theworldisyours</strong></p>"
-          }
-        },
-        "slide_RUp3T6": {
-          "type": "slide",
-          "settings": {
-            "media_style": "image",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "controls": false,
-            "stars_count": 5,
-            "text": "<p>This is the brand to go for lamps, love the quality and design, as always you get what you pay</p>",
-            "author": "<p><strong>@niels_homes</strong></p>"
-          }
-        },
-        "slide_JHUhcV": {
-          "type": "slide",
-          "settings": {
-            "media_style": "image",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "controls": false,
-            "stars_count": 5,
-            "text": "<p>Love them, they give the perfect luxury touch to any room</p>",
-            "author": "<p><strong>@allfinds</strong></p>"
-          }
-        },
         "slide_D7GMGn": {
           "type": "slide",
           "settings": {
             "media_style": "image",
+            "image": "shopify://shop_images/1_a63f13b6-691e-4dfc-9bb7-3e324c710d9a.png",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "controls": false,
             "stars_count": 5,
-            "text": "<p>The cordless lamp you've been looking for!</p>",
-            "author": "<p><strong>@lacey</strong></p>"
+            "text": "<p>\"Facebook has been following me hard with this and i finally gave in! I slept with it overnight and am impressed that it was fully soaked in by the morning. It was a little difficult to get on and i clearly put the eye patches in the wrong place but I still have five more tries to get it right (6-pack). I would also recommend that you give your kids a heads up, especially if they're young and tend to wake up in the night! Overall it felt great though and I was able to sleep with it on, even as a side sleeper.\"</p>",
+            "author": "<p><strong>Julie K</strong></p>"
           }
         },
         "slide_VAxQ8g": {
@@ -476,10 +433,6 @@
         }
       },
       "block_order": [
-        "slide_gwp4M4",
-        "slide_xGmEmz",
-        "slide_RUp3T6",
-        "slide_JHUhcV",
         "slide_D7GMGn",
         "slide_VAxQ8g",
         "slide_pK8tJi"
