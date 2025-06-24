@@ -214,6 +214,52 @@
         "lazy": false
       }
     },
+    "ss_before_after_image_e7cBBW": {
+      "type": "ss-before-after-image",
+      "blocks": {
+        "text_eCD9KG": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "heading": "CONSISTENT USE RESULT",
+            "content": "<p>Consistent use of our Bio-Collagen Real Deep Mask (once per week) has been proven to improve hydration and complexion whilst reducing the appearance of fine lines, wrinkles, pores, scarring and uneven pigmentation in 91% of the 200 women surveyed.</p>",
+            "text_position": "center",
+            "color": "#000000"
+          }
+        },
+        "images_iHcz4D": {
+          "type": "images",
+          "settings": {
+            "desktop_height": 500,
+            "mobile_height": 400,
+            "border_radius": 26,
+            "before_image": "shopify://shop_images/2-min.png",
+            "after_image": "shopify://shop_images/1-min.png",
+            "cover": true,
+            "before_text": "Before",
+            "after_text": "After 4 weeks",
+            "before_text_color": "#FFFFFF",
+            "after_text_color": "#FFFFFF",
+            "before_after_text_position": "bottom",
+            "drag_initial_position": 50,
+            "drag_cursor_bg": "#FFFFFF",
+            "drag_cursor_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "text_eCD9KG",
+        "images_iHcz4D"
+      ],
+      "name": "SS - Before & After",
+      "settings": {
+        "background_color": "transparent",
+        "background": "",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section-width": 120
+      }
+    },
     "ss_delivery_timer_jJzCLN": {
       "type": "ss-delivery-timer",
       "blocks": {
@@ -599,6 +645,7 @@
   "order": [
     "main",
     "ss_product_videos_4_BkaDBJ",
+    "ss_before_after_image_e7cBBW",
     "ss_delivery_timer_jJzCLN",
     "ss_testimonial_12_xj7gFi",
     "faq_WwaXBM",
