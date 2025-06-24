@@ -12,6 +12,10 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "quantity_selector_YVyjEc": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -20,10 +24,6 @@
             "color_mode": "variant_image",
             "size_chart_page": ""
           }
-        },
-        "quantity_selector_YVyjEc": {
-          "type": "quantity_selector",
-          "settings": {}
         },
         "description_gLVVbJ": {
           "type": "description",
@@ -42,8 +42,8 @@
         }
       },
       "block_order": [
-        "variant_picker",
         "quantity_selector_YVyjEc",
+        "variant_picker",
         "description_gLVVbJ",
         "buy_buttons"
       ],
