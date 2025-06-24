@@ -107,7 +107,7 @@
       ],
       "name": "SS - Product videos #4",
       "settings": {
-        "videos_position": "above_description",
+        "videos_position": "above_title",
         "heading": "<h3>Tap to play</h3>",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
