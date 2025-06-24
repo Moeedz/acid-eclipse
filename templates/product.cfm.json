@@ -241,7 +241,7 @@
             "before_text_color": "#FFFFFF",
             "after_text_color": "#FFFFFF",
             "before_after_text_position": "bottom",
-            "drag_initial_position": 50,
+            "drag_initial_position": 60,
             "drag_cursor_bg": "#FFFFFF",
             "drag_cursor_color": "#000000"
           }
