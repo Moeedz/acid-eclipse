@@ -355,6 +355,59 @@
         "include_horizontal_margins": true,
         "include_vertical_margins": true
       }
+    },
+    "faq_WwaXBM": {
+      "type": "faq",
+      "blocks": {
+        "category_XqgLVa": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping"
+          }
+        },
+        "question_xbLpNK": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "question_ibXPy8": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "category_ifJFKM": {
+          "type": "category",
+          "settings": {
+            "title": "Other"
+          }
+        },
+        "question_7JHQWQ": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_XqgLVa",
+        "question_xbLpNK",
+        "question_ibXPy8",
+        "category_ifJFKM",
+        "question_7JHQWQ"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
@@ -362,6 +415,7 @@
     "ss_product_videos_4_BkaDBJ",
     "ss_delivery_timer_jJzCLN",
     "product-content",
-    "170103446944ead705"
+    "170103446944ead705",
+    "faq_WwaXBM"
   ]
 }
