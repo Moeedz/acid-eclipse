@@ -425,11 +425,12 @@
           "type": "slide",
           "settings": {
             "media_style": "image",
+            "image": "shopify://shop_images/2_da28c98e-3733-45fa-a8e9-043b4256dfc8.png",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "controls": false,
             "stars_count": 5,
-            "text": "<p>I use it every day early in the morning and on our dining table, it is do convenient and cool</p>",
-            "author": "<p><strong>@dwithpatty</strong></p>"
+            "text": "<p>\"I tried the Bio collagen deep mask and overall, it provided fantastic hydration for my skin. I used it overnight, and by morning, my face felt noticeably smoother and more refreshed. The serum dried clear and the elasticity and complexion improvement was real, my face is always so red and nothing has helped like these face masks for genuine long lasting moisturised skin! However, you need to be careful during application, they can be fragile but if you apply it carefully it does deliver great results.\"</p>",
+            "author": "<p><strong>Maria D</strong></p>"
           }
         }
       },
