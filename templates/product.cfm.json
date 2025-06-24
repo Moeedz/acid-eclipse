@@ -25,6 +25,10 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "description_gLVVbJ": {
+          "type": "description",
+          "settings": {}
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -35,17 +39,13 @@
             "buy_now_button_background": "rgba(0,0,0,0)",
             "buy_now_button_text_color": "rgba(0,0,0,0)"
           }
-        },
-        "description_gLVVbJ": {
-          "type": "description",
-          "settings": {}
         }
       },
       "block_order": [
         "variant_picker",
         "quantity_selector_YVyjEc",
-        "buy_buttons",
-        "description_gLVVbJ"
+        "description_gLVVbJ",
+        "buy_buttons"
       ],
       "settings": {
         "show_vendor": false,
@@ -100,7 +100,7 @@
           "settings": {
             "air_blockreviews_summaryHeading": "Reviews",
             "air_blockreviews_layout": "list",
-            "air_blockreviews_singleStarColor": "#16A086",
+            "air_blockreviews_singleStarColor": "#16a086",
             "air_blockreviews_primaryColor": "#121212"
           }
         }
