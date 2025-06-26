@@ -19,11 +19,12 @@
         "text_eLfjwL": {
           "type": "text",
           "settings": {
-            "text": "<p>This lightweight mask delivers flawless illumination through 504 LEDs in nine rejuvenating wavelengths. Including near-infrared (840nm) and deep near-infrared (1072nm), to visibly reduce wrinkles, lift sagging, and tackle hormonal rosacea, eczema and acne - in just 5 minutes a day.</p>"
+            "text": "<p>FDA and UKCA-cleared. Dermatologist-recommended infrared light and EMS therapy device with clinically proven results for improving appearance of: Under-Eye Bags, Wrinkles, Eczema, Dark Circles.</p>"
           }
         },
         "description_gLVVbJ": {
           "type": "description",
+          "disabled": true,
           "settings": {}
         },
         "variant_picker": {
@@ -581,6 +582,40 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "slideshow_4azhtm": {
+      "type": "slideshow",
+      "blocks": {
+        "image_mP6paN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DG_V2_benefits_b62cd67e-a19a-4136-8683-c0492697667f.png",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_mP6paN"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
     "ss_scrolling_logo_cloud_LaB6Ut": {
       "type": "ss-scrolling-logo-cloud",
       "blocks": {
@@ -664,40 +699,6 @@
         "content_width": 120,
         "border_thickness": 0,
         "lazy": true
-      }
-    },
-    "slideshow_4azhtm": {
-      "type": "slideshow",
-      "blocks": {
-        "image_mP6paN": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/DG_V2_benefits_b62cd67e-a19a-4136-8683-c0492697667f.png",
-            "text_position": "middle_center",
-            "subheading": "",
-            "title": "",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_mP6paN"
-      ],
-      "name": "Slideshow",
-      "settings": {
-        "section_height": "auto",
-        "transition_type": "sweep",
-        "autoplay": true,
-        "cycle_speed": 5,
-        "background": "rgba(0,0,0,0)"
       }
     },
     "faq_WwaXBM": {
