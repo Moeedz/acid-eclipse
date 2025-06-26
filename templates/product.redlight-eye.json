@@ -628,20 +628,6 @@
             "answer": "<p></p><ul><li>Acid Eclipse™  DermaGlow Glasses</li><li>Charging cable</li><li>Cleaning cloth</li><li>User guide</li></ul>"
           }
         },
-        "question_QgpCxQ": {
-          "type": "question",
-          "settings": {
-            "title": "Specifications",
-            "answer": "<p></p><p><strong>LEDs:</strong> 504</p><p><strong>Deep NI/NI bulbs: </strong>336</p><p><strong>Irradiance:</strong> 45mW/cm²</p><p><strong>Weight: </strong>271g (Face and Neck)</p><p><strong>Treatment modes:</strong> Seven</p><p><strong>Wavelengths: </strong>Nine</p><p><strong>Wavelength range: </strong>405nm - 1072nm</p><p><strong>Coverage: </strong>Full face, neck, chin, decollete</p><p><strong>Power: </strong>Plug in</p><p><strong>Size: </strong>One size</p><p><strong>Material: </strong>Silicone</p><p><strong>Usage: </strong>Hands free and self timed</p><p><strong>Certification:</strong> UKCA & CE approved</p>"
-          }
-        },
-        "question_eRVUNT": {
-          "type": "question",
-          "settings": {
-            "title": "What's included",
-            "answer": "<p></p><ul><li>Acid Eclipse™  DermaGlow LED Light Therapy Mask Version 2 (face + neck piece)</li><li>Silicone eye protectors (x2)</li><li>Satin Drawstring Bag</li><li>Plug and remote</li><li>User guide</li></ul>"
-          }
-        },
         "category_ifJFKM": {
           "type": "category",
           "settings": {
@@ -652,14 +638,14 @@
           "type": "question",
           "settings": {
             "title": "Shipping",
-            "answer": "<p></p><p><strong>Shipping times</strong><br/><br/>We offer <strong>Free Tracked Shipping</strong> (3-7 business days) to the UK, USA, Germany and Austria.</p><p><strong>Processing times</strong></p><p>Orders placed before 14:00 are guaranteed to be shipped same day (Mon-Sat). Orders placed after this time will be shipped the following day.</p><p><strong>Info</strong></p><p>We hold stock in the UK, US and Australia, so no matter where you are in the world, we can get your order to you. </p><p>Our team is here for you. Feel free to <a href=\"/pages/contact\" target=\"_blank\" title=\"Contact us\">contact us </a>if you have any questions about shipping.</p>"
+            "answer": "<p></p><p><strong>Shipping times</strong><br/><br/>We offer <strong>Free Tracked Shipping</strong> (4-7 working days)<strong> </strong>on all orders over a certain price. This price depends on your currency however for reference, shipping will be free if you spend £39 (UK), $50 (USA) or $80 AUD (Australia).</p><p><strong>Processing times</strong></p><p>Orders placed before 14:00 am are guaranteed to be shipped same day (Mon-Sat). Orders placed after this time will be shipped the following day.</p><p><strong>Info</strong></p><p>We hold stock in the UK, US and Australia, so no matter where you are in the world, we can get your order to you. </p><p>Our team is here for you. Feel free to <a href=\"/pages/contact\" target=\"_blank\" title=\"Contact us\">contact us </a>if you have any questions about shipping.</p>"
           }
         },
         "question_D8TC4T": {
           "type": "question",
           "settings": {
             "title": "Returns & Warranty",
-            "answer": "<p></p><p>We offer a 60-day, no-risk, Happiness Guarantee. Try out your DermaGlow for yourself; and if you aren’t 100% happy with your purchase, return it within 60 days for a full refund, no questions asked.</p><p>Please return items to:</p><p><strong>Acid Eclipse Office, 8 Chainey Pieces, Haverhill, Suffolk, CB9 8BG, United Kingdom</strong></p><p>The Acid Eclipse™ DermaGlow LED Light Therapy Mask: Version 2 also comes with a full year manufacturers warranty. If anything goes wrong with your mask in the first year after purchase, we'll replace it for free.<br/><br/>Read our full <a href=\"/pages/returns-policy\" target=\"_blank\" title=\"Returns Policy\">Returns Policy.</a></p>"
+            "answer": "<p></p><p>We offer a 60-day, no-risk, Happiness Guarantee. Try out your DermaGlow for yourself; and if you aren’t 100% happy with your purchase, return it within 60 days for a full refund, no questions asked.</p><p>Please return items to:</p><p><strong>Acid Eclipse Office, 8 Chainey Pieces, Haverhill, Suffolk, CB9 8BG, United Kingdom</strong></p><p>The Acid Eclipse™ DermaGlow V2 LED Mask also comes with a full year manufacturers warranty. If anything goes wrong with your mask in the first year after purchase, we'll replace it for free.</p>"
           }
         }
       },
@@ -669,8 +655,6 @@
         "question_ibXPy8",
         "question_KyeTi4",
         "question_dhQ476",
-        "question_QgpCxQ",
-        "question_eRVUNT",
         "category_ifJFKM",
         "question_7JHQWQ",
         "question_D8TC4T"
