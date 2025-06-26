@@ -1,0 +1,878 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "air_product_reviews_app_summary_block_fDY3mH": {
+          "type": "shopify://apps/air-product-reviews/blocks/app-summary-block/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
+          "settings": {}
+        },
+        "text_eLfjwL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This lightweight mask delivers flawless illumination through 504 LEDs in nine rejuvenating wavelengths. Including near-infrared (840nm) and deep near-infrared (1072nm), to visibly reduce wrinkles, lift sagging, and tackle hormonal rosacea, eczema and acne - in just 5 minutes a day.</p>"
+          }
+        },
+        "description_gLVVbJ": {
+          "type": "description",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "variant_image",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_YVyjEc": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "liquid_FciePi": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% if product.available %}\n\n  <div class=\"instock-pulse\">\n    <span class=\"icon--pulsing\"></span>\n    <span>Ready to ship! [Low Stock]</span>\n  </div>\n\n  <style>\n\n    .instock-pulse {\n      display: flex;\n      flex-wrap: nowrap;\n      align-items: center;\n    }\n\n    .icon--pulsing {\n      position: relative;\n      width: 20px;\n      height: 20px;\n      margin-right: 12px;\n    }\n\n    .icon--pulsing:after, \n    .icon--pulsing:before {\n        background: #1BA935;\n        width: 10px;\n        height: 10px;\n        border-radius: 10px;\n        position: absolute;\n        left: 5px;\n        top: 0;\n        content: \"\";\n        margin: 5px;\n    }\n\n    @keyframes inventory-pulse{\n      0%{\n        opacity:0.5;\n      }\n      to{\n        transform:scale(2.5);\n        opacity:0;\n      }\n    }\n\n    .icon--pulsing:before {\n        animation: inventory-pulse 2s linear infinite;\n    }\n\n  </style>\n\n{% endif %}"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "#455090",
+            "atc_button_text_color": "#ffffff",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "air_product_reviews_app_summary_block_fDY3mH",
+        "text_eLfjwL",
+        "description_gLVVbJ",
+        "variant_picker",
+        "quantity_selector_YVyjEc",
+        "liquid_FciePi",
+        "buy_buttons"
+      ],
+      "settings": {
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": true,
+        "show_product_rating": true,
+        "show_sticky_add_to_cart": true,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_image_zoom": false,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide"
+      }
+    },
+    "ss_product_videos_4_BkaDBJ": {
+      "type": "ss-product-videos-4",
+      "blocks": {
+        "video_jTRbXm": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/7a06dacf1e62ecf1de65834545f796ba.mp4",
+            "preload_video": "shopify://files/videos/0206 (3)(2).mp4",
+            "title": ""
+          }
+        },
+        "video_4jWAUU": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/0206 (3).mp4",
+            "preload_video": "shopify://files/videos/0206 (3)(1).mp4",
+            "title": ""
+          }
+        },
+        "video_7pjFKU": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/d9930ec576a90fd9636899753fbaeac7.mp4",
+            "preload_video": "shopify://files/videos/0206 (3)(3).mp4",
+            "title": ""
+          }
+        },
+        "video_36ib4G": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/27b09844180b66356a08ca19bd96fbd1.mp4",
+            "preload_video": "shopify://files/videos/0206 (3)(4).mp4",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_jTRbXm",
+        "video_4jWAUU",
+        "video_7pjFKU",
+        "video_36ib4G"
+      ],
+      "disabled": true,
+      "name": "SS - Product videos #4",
+      "settings": {
+        "videos_position": "above_buy",
+        "heading": "<h3>Tap to play</h3>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 15,
+        "heading_size_mobile": 15,
+        "heading_height": 130,
+        "heading_align": "left",
+        "heading_align_mobile": "left",
+        "slider_view": 4.6,
+        "slider_view_mobile": 3.6,
+        "slider_gap": 16,
+        "slider_gap_mobile": 12,
+        "slider_mt": 4,
+        "slider_mt_mobile": 0,
+        "card_padding": 0,
+        "card_radius": 300,
+        "card_border_thickness": 3,
+        "card_hover": true,
+        "card_first_animation": true,
+        "video_ratio": "square",
+        "video_ratio_mobile": "square",
+        "video_overlay": 0,
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 14,
+        "title_size_mobile": 12,
+        "title_height": 130,
+        "title_mt": 10,
+        "title_mt_mobile": 10,
+        "title_align": "center",
+        "title_align_mobile": "center",
+        "arrow_size": 32,
+        "arrow_size_mobile": 28,
+        "arrow_border_thickness": 0,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": false,
+        "dots_size": 10,
+        "dots_size_mobile": 8,
+        "dots_mt": 0,
+        "dots_mt_mobile": 0,
+        "dots_show_desktop": false,
+        "dots_show_mobile": false,
+        "modal_width": 300,
+        "modal_width_mobile": 260,
+        "modal_padding_vertical": 0,
+        "modal_padding_vertical_mobile": 0,
+        "modal_padding_horizontal": 0,
+        "modal_padding_horizontal_mobile": 0,
+        "modal_radius": 16,
+        "modal_border_thickness": 0,
+        "modal_overlay": 0.3,
+        "modal_video_radius": 0,
+        "modal_video_border_thickness": 0,
+        "modal_video_ratio": "original",
+        "modal_video_ratio_mobile": "original",
+        "use_progress": true,
+        "action_size": 28,
+        "action_size_mobile": 36,
+        "action_border_thickness": 0,
+        "buttons_size": 32,
+        "buttons_size_mobile": 36,
+        "buttons_border_thickness": 0,
+        "card_bg_color": "#ffffff",
+        "card_bg_gradient": "",
+        "card_border_color": "#a8a9e0",
+        "video_overlay_color": "#000000",
+        "card_animation_color": "#a8a9e0",
+        "play_button_color": "#ffffff",
+        "title_color": "#000000",
+        "arrow_color": "#ffffff",
+        "arrow_hover_color": "#ffffff",
+        "arrow_bg_color": "#000000",
+        "arrow_bg_hover_color": "#555555",
+        "arrow_border_color": "#000000",
+        "arrow_border_hover_color": "#555555",
+        "dots_color": "#000000",
+        "modal_overlay_color": "#242424",
+        "modal_bg_color": "#ffffff",
+        "modal_border_color": "#000000",
+        "modal_video_border_color": "#000000",
+        "action_icon_color": "#ffffff",
+        "action_bg_color": "#000000",
+        "action_border_color": "#000000",
+        "buttons_icon_color": "#000000",
+        "buttons_bg_color": "#ffffff",
+        "buttons_border_color": "#000000",
+        "heading_color": "#000000",
+        "background_color": "#ffffff",
+        "border_color": "#000000",
+        "margin_top": -20,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "border_thickness": 0,
+        "lazy": false
+      }
+    },
+    "ss_before_after_image_e7cBBW": {
+      "type": "ss-before-after-image",
+      "blocks": {
+        "text_eCD9KG": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "heading": "12-Week Study",
+            "content": "<p>A third party study was run from February - May with 200 men and women (aged 38 - 52). After using the Acid Eclipse™ DermaGlow LED Light Therapy Mask: Version 2 for 12 weeks we asked them if they were pleased with the results and would recommend this product: <strong>94% said yes.</strong></p>",
+            "text_position": "center",
+            "color": "#000000"
+          }
+        },
+        "images_iHcz4D": {
+          "type": "images",
+          "settings": {
+            "desktop_height": 500,
+            "mobile_height": 400,
+            "border_radius": 26,
+            "before_image": "shopify://shop_images/1_4ea11c65-ac70-410f-8ad7-af723e07a90f.png",
+            "after_image": "shopify://shop_images/2_9008e2cc-e09b-4ba2-bea0-05fa9c10b5c9.png",
+            "cover": true,
+            "before_text": "Before",
+            "after_text": "After 12 weeks",
+            "before_text_color": "#ffffff",
+            "after_text_color": "#ffffff",
+            "before_after_text_position": "bottom",
+            "drag_initial_position": 60,
+            "drag_cursor_bg": "#ffffff",
+            "drag_cursor_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "text_eCD9KG",
+        "images_iHcz4D"
+      ],
+      "name": "SS - Before & After",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "background": "",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section-width": 120
+      }
+    },
+    "ss_delivery_timer_jJzCLN": {
+      "type": "ss-delivery-timer",
+      "blocks": {
+        "item_apmHnc": {
+          "type": "item",
+          "settings": {
+            "days": 0,
+            "range": false,
+            "second_days": 0,
+            "weekend": true,
+            "title": "Order placed"
+          }
+        },
+        "item_ePnPny": {
+          "type": "item",
+          "settings": {
+            "days": 0,
+            "range": true,
+            "second_days": 1,
+            "weekend": true,
+            "title": "Dispatched"
+          }
+        },
+        "item_CQtM4Q": {
+          "type": "item",
+          "settings": {
+            "days": 4,
+            "range": true,
+            "second_days": 7,
+            "weekend": true,
+            "title": "Delivered"
+          }
+        }
+      },
+      "block_order": [
+        "item_apmHnc",
+        "item_ePnPny",
+        "item_CQtM4Q"
+      ],
+      "name": "SS - Delivery Timer",
+      "settings": {
+        "delivery_position": "below_buy",
+        "items_style": "first",
+        "heading": "Order by 2pm for dispatch same day.",
+        "heading_use_delivery": false,
+        "heading_custom": true,
+        "heading_font": "archivo_narrow_n6",
+        "heading_size": 15,
+        "heading_size_mobile": 15,
+        "heading_height": 50,
+        "heading_align": "left",
+        "heading_align_mobile": "left",
+        "items_mt": 20,
+        "items_gap": 0,
+        "item_padding_vertical": 10,
+        "item_padding_horizontal": 10,
+        "item_radius": 0,
+        "item_border_thickness": 1,
+        "item_arrow": true,
+        "icon_size": 38,
+        "icon_size_mobile": 36,
+        "date_custom": true,
+        "date_font": "archivo_narrow_n6",
+        "date_size": 13,
+        "date_size_mobile": 13,
+        "date_height": 70,
+        "date_mt": 10,
+        "title_custom": false,
+        "title_font": "archivo_narrow_n4",
+        "title_size": 12,
+        "title_size_mobile": 12,
+        "title_height": 130,
+        "title_mt": 10,
+        "item_border_color": "#dededf",
+        "icon_bg_color": "#4d4d4d",
+        "icon_color": "#ffffff",
+        "line_color": "#4d4d4d",
+        "date_color": "#787878",
+        "title_color": "#787878",
+        "heading_color": "#787878",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 32,
+        "padding_bottom": 40,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "border_thickness": 0
+      }
+    },
+    "ss_testimonial_12_xj7gFi": {
+      "type": "ss-testimonial-12",
+      "blocks": {
+        "slide_D7GMGn": {
+          "type": "slide",
+          "settings": {
+            "media_style": "image",
+            "image": "shopify://shop_images/3_47583a55-34e6-4286-bf17-20892e2c4f6f.png",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "controls": false,
+            "stars_count": 5,
+            "text": "<p>\"Here's a breakdown of how the last 2 months have gone. Hopefully this will help someone who's skin is like mine! I have Rosacea and extremely sensitive dry skin. I used the dermaglow v2 mask once a day, for 5 minutes for 8 weeks straight. I was super hesitant to purchase since it was super expensive to me, but after doing my own research and reading online reviews, I pulled the trigger. I didn't start seeing even minimal results until 2 weeks in and I felt super defeated when I didn't see a single change in redness, texture, or literally anything. But I kept at it and past the 3-4 week mark, that's when I started to see a difference. Now 8 weeks in, I can definitely tell a difference especially in my skin's texture not only in real life but in photos as well. It seems to be gaining momentum now from the consistent use so I'll keep at it.\"</p>",
+            "author": "<p><strong>Serena O</strong></p>"
+          }
+        },
+        "slide_VAxQ8g": {
+          "type": "slide",
+          "settings": {
+            "media_style": "image",
+            "image": "shopify://shop_images/1_da8883b7-5153-4a9a-a92a-68aaa5d8e653.png",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "controls": false,
+            "stars_count": 5,
+            "text": "<p>\"I’ve been using this mask for two weeks and my skin already looks so much healthier!! Inflammation, dryness and redness is almost all gone and I have a healthy glow. I just do the standard 5 minute timed session every day and so far i've alternated between red and yellow light. Red for overall skin health and anti ageing and then the yellow to help calm the redness and dryness that has definitely gotten worse the past few months. I would recommend to anyone who has had red, dry skin flare ups. It's only been two weeks, hence 4 stars, but the mask really seems to have settled my skin finally!\"</p>",
+            "author": "<p><strong>Grace Y</strong></p>"
+          }
+        },
+        "slide_pK8tJi": {
+          "type": "slide",
+          "settings": {
+            "media_style": "image",
+            "image": "shopify://shop_images/B_A_DG_Glasses_90aa0f3b-c42a-4839-a1cd-6ca006b84937.png",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "controls": false,
+            "stars_count": 5,
+            "text": "<p>\"I'm in my early 40s and I started with clear skin goals - improve cheek firmness and smooth out fine lines - mainly my cheeks as I'm worried they're going to sag worse and get jowly. I use red light mode 6 days a week, and after nearly 8 weeks I'm literally blown away with how much slimmer my face looks. I should mention I have lost 6kg in the past 3 months however I'm a bigger lady and still have a good amount to lose so I don't think the weight loss affected my face anywhere as much as the mask! Also, the fit is brilliant, the silicone and the three velcro straps make it very secure and comfortable. I used to have to hold my old mask up for 10 minutes, which really hurt my shoulders, so this one’s been a relief in more ways than one.\"</p>",
+            "author": "<p><strong>Lauren K</strong></p>"
+          }
+        },
+        "slide_98t6xQ": {
+          "type": "slide",
+          "settings": {
+            "media_style": "image",
+            "image": "shopify://shop_images/2_81125b52-ec96-440c-bffd-54bb2975665e.png",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "controls": false,
+            "stars_count": 5,
+            "text": "<p>\"The before picture was taken 6 weeks ago to the day, and the after was this morning. My jaw dropped when I put both photos side by side. I use red light and blue light and switch between them every day. I've been doing this routine for the whole 6 weeks so i'm unsure which has helped me more but i would guess both have played their part. I use red light to try and counter the perimenopause skin a little and to try and regain some collagen and elastin in my skin, and then the blue light for acne.\"</p>",
+            "author": "<p><strong>Cheyenne S</strong></p>"
+          }
+        },
+        "slide_eyQx39": {
+          "type": "slide",
+          "settings": {
+            "media_style": "image",
+            "image": "shopify://shop_images/1_45269b53-f37c-4ff5-819e-83e8eb070e36.png",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "controls": false,
+            "stars_count": 5,
+            "text": "<p>\"Seriously impressed! I haven't read many reviews highlighting the neck part, I've been self conscious of my sagging skin below my chin for years and to have that almost entirely lifted and tightened in less than 2 months is honestly incredible to me. I'm going through perimenopause and the changes to my skin have been so frustrating - none of the products I used in my 30s seem to work anymore. I was so sceptical and I would have paid any amount of money to get some firmness back, it feels a bit ridiculous to me that this is all it took. I use my dermaglow everyday and I will be forever at this rate. Incredible, 10/10.\"</p>",
+            "author": "<p><strong>Martha R</strong></p>"
+          }
+        },
+        "slide_cnjzt6": {
+          "type": "slide",
+          "settings": {
+            "media_style": "image",
+            "image": "shopify://shop_images/B_A_4dd4e7b4-dd7d-4be3-bcee-c9b46311fa44.png",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "controls": false,
+            "stars_count": 5,
+            "text": "<p>\"I’ve been dealing with rosacea and eczema that flared up in recent years and a lot the past few months - probably down to some hormonal shifts. My eczema usually just stays around my eyes and gets really sore and irritated, especially on cold windy days. I’d been trying all sorts, castor oil, rosehip, even the black seed oil serum I saw on TikTok, and none of it made any real difference. The photo on the left has been my face for the last three years, the photo on the right is yesterday, after 3 weeks of using the DermaGlow 2. My eczema is completely gone and my rosacea is probably 80% better. For anyone in the same boat, I use it 6 days a week and I alternate between green light for rosacea and white light for the eczema.\"</p>",
+            "author": "<p><strong>Joanne T</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_D7GMGn",
+        "slide_VAxQ8g",
+        "slide_pK8tJi",
+        "slide_98t6xQ",
+        "slide_eyQx39",
+        "slide_cnjzt6"
+      ],
+      "name": "SS - Testimonials #12",
+      "settings": {
+        "heading": "<h3>Dramatic Transformations</h3>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 30,
+        "heading_size_mobile": 30,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "sub_heading": "<p>Send us your review and photos</p>",
+        "sub_heading_custom": false,
+        "sub_heading_font": "josefin_sans_n4",
+        "sub_heading_size": 30,
+        "sub_heading_size_mobile": 14,
+        "sub_heading_height": 130,
+        "sub_heading_mt": 12,
+        "sub_heading_align": "center",
+        "sub_heading_align_mobile": "center",
+        "slider_view": 5.4,
+        "slider_view_mobile": 1.5,
+        "slider_gap": 28,
+        "slider_gap_mobile": 20,
+        "slider_mt": 20,
+        "autoplay": false,
+        "autoplay_delay": 5,
+        "card_padding_vertical": 20,
+        "card_padding_vertical_mobile": 16,
+        "card_padding_horizontal": 20,
+        "card_padding_horizontal_mobile": 16,
+        "card_radius": 20,
+        "card_border_thickness": 3,
+        "card_shadow": false,
+        "media_radius": 12,
+        "media_border_thickness": 0,
+        "media_ratio": "square",
+        "media_ratio_mobile": "square",
+        "content_padding_vertical": 0,
+        "content_padding_vertical_mobile": 0,
+        "content_padding_horizontal": 0,
+        "content_padding_horizontal_mobile": 0,
+        "hide_content": false,
+        "stars_size": 16,
+        "stars_mt": 12,
+        "stars_align": "center",
+        "stars_align_mobile": "center",
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 16,
+        "text_size_mobile": 16,
+        "text_height": 130,
+        "text_mt": 28,
+        "text_align": "center",
+        "text_align_mobile": "center",
+        "author_custom": false,
+        "author_font": "josefin_sans_n4",
+        "author_size": 14,
+        "author_size_mobile": 14,
+        "author_height": 130,
+        "author_mt": 12,
+        "author_align": "center",
+        "author_align_mobile": "center",
+        "navigation_mt": 40,
+        "navigation_gap": 20,
+        "navigation_align": "center",
+        "navigation_align_mobile": "center",
+        "arrow_size": 50,
+        "arrow_size_mobile": 50,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": false,
+        "dots_size": 10,
+        "dots_size_mobile": 10,
+        "dots_show_desktop": false,
+        "dots_show_mobile": true,
+        "btn_icon_size": 50,
+        "btn_icon_size_mobile": 40,
+        "card_bg_color": "#ffffff",
+        "card_bg_gradient": "",
+        "card_border_color": "#a8a9e0",
+        "card_shadow_color": "#000000",
+        "media_border_color": "#000000",
+        "stars_color": "#323232",
+        "text_color": "#323232",
+        "author_color": "#323232",
+        "video_icon_bg_color": "#ffffff",
+        "video_icon_color": "#000000",
+        "arrow_color": "#837c5c",
+        "arrow_hover_color": "#837c5c",
+        "dots_color": "#837c5c",
+        "heading_color": "#000000",
+        "sub_heading_color": "#575757",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "faq_wWfLA7": {
+      "type": "faq",
+      "blocks": {
+        "question_cPrnyY": {
+          "type": "question",
+          "settings": {
+            "title": "Read more",
+            "answer": "<p></p><p>If you’re in perimenopause or menopause and unsure how to care for your changing skin, you're not alone - and we’re here to help.</p><p>The upgraded DermaGlow Version 2 took over a year to perfect - with 30 prototypes, and input from dermatologists with over 120 years of combined experience.</p><p>We know what skin at this stage of life needs. That's how we know you will look younger, within 60 days, if you use the DermaGlow V2 as advised.</p><p>We're so confident - we'll refund you in full if you're not impressed with your results.</p><p>We asked 500 real customers (all women aged 40-50) why they chose the DermaGlow V2. <a href=\"/pages/5-reasons-why-women-aged-40-50-are-switching-to-the-dermaglow-v2-mask\" target=\"_blank\" title=\"5 Reasons Women Aged 40-50 are Switching to the DermaGlow V2 Mask\"><strong>Read the blog here.</strong></a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_cPrnyY"
+      ],
+      "custom_css": [
+        ".faq__item {background: #e5e5e5;}"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "show_navigation": false,
+        "title": "LOOK 5 YEARS YOUNGER IN 60 DAYS OR YOUR MONEY BACK",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ss_scrolling_logo_cloud_LaB6Ut": {
+      "type": "ss-scrolling-logo-cloud",
+      "blocks": {
+        "slide_nKDb8F": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/1_35b5a3e8-0bc9-47b4-b12b-d77b3a48a222.png",
+            "link": ""
+          }
+        },
+        "slide_rB3GxP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/5_01f84d14-e60b-4c92-b04d-8b06f36b5365.png",
+            "link": ""
+          }
+        },
+        "slide_CLQ3er": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/4_a7d7c008-369c-40ad-a50e-9f225c630edc.png",
+            "link": ""
+          }
+        },
+        "slide_BVxat9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_168a66f5-93e2-49a0-acf8-aed33659794c.png",
+            "link": ""
+          }
+        },
+        "slide_m8TT7L": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/3_1eedd454-ed46-4e9e-b763-3e80d54fce47.png",
+            "link": ""
+          }
+        },
+        "slide_W3qLQ3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/6_90da75f7-c825-4382-b524-0453cca9de10.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_nKDb8F",
+        "slide_rB3GxP",
+        "slide_CLQ3er",
+        "slide_BVxat9",
+        "slide_m8TT7L",
+        "slide_W3qLQ3"
+      ],
+      "name": "SS - Scrolling Logo Cloud",
+      "settings": {
+        "ss-title": "",
+        "heading_custom": false,
+        "heading_font": "assistant_n4",
+        "header_size": 0,
+        "header_align": "center",
+        "scrolling_velocity": 24,
+        "pause_hover": false,
+        "shadow": false,
+        "sliders_mt": 0,
+        "logo_padding_top": 0,
+        "logo_padding_bottom": 0,
+        "slider_gap": 30,
+        "slider_gap_mobile": 30,
+        "slider_direction": "left",
+        "icon_width": 100,
+        "header_color": "#121212",
+        "border_color": "#ffffff",
+        "background-color": "#ffffff",
+        "slider-background-color": "#ffffff",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "slideshow_4azhtm": {
+      "type": "slideshow",
+      "blocks": {
+        "image_mP6paN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DG_V2_benefits_b62cd67e-a19a-4136-8683-c0492697667f.png",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_mP6paN"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "faq_WwaXBM": {
+      "type": "faq",
+      "blocks": {
+        "category_XqgLVa": {
+          "type": "category",
+          "settings": {
+            "title": "Details"
+          }
+        },
+        "question_xbLpNK": {
+          "type": "question",
+          "settings": {
+            "title": "Description",
+            "answer": "<p></p><p>We discovered that the LEDs on most light therapy masks sit 2-3.5cm from the skin and only covered part of the treatment area, leaving much of the face uncovered. The DermaGlow is designed with these shortcomings in mind, with much closer LEDs and total coverage, to ensure quicker and more significant results.</p><p>The DermaGlow LED Light Therapy Mask Version 2 is our most up to date and comprehensive light therapy device ever. We spent over two years, and over 30 prototypes, carefully developing it before arriving at the DermaGlow V2. </p><p>Concepts such as power density, wavelength precision, energy absorption, comprehensive coverage, and bulb placement were at the forefront of the design and manufacturing process to ensure the final product is as effective as it can be at reversing signs of ageing.</p><p>The DermaGlow uses 504 medical-grade LEDs, including 252 near-infrared and deep near-infrared bulbs, just 0.5-1cm from your face and neck, to achieve firmer, brighter and younger looking skin in as little as 2 weeks. </p><p>By partnering with LED skincare experts with over 100 years of combined experience, we have harnessed the power of nine clinically backed LED wavelengths, including Deep Near-Infrared (1072nm) and near-infrared (840nm) - the most clinically researched wavelengths, known to kickstart the cellular renewal process. <br/></p><p><strong>96%</strong> of participants reported visibly reduced fine lines and wrinkles, <strong>98%</strong> noticed firmer skin, and <strong>95%</strong> saw a brighter-looking complexion*.</p><p>*Stats from 200 person 4 week study.</p>"
+          }
+        },
+        "question_ibXPy8": {
+          "type": "question",
+          "settings": {
+            "title": "LED Wavelengths",
+            "answer": "<p></p><p><strong>Red light (640nm) </strong><br/>Three wavelengths in one, your go-to for all things fine lines and sagging. Boosts collagen production and visibly reduces fine line depth for a firmer, younger-looking complexion.</p><p><strong>Near-Infrared light (840nm)</strong><br/>Penetrates deeper layers of the skin than red light to enhance circulation, reduce inflammation, and accelerate wound healing. Supports tissue repair and is ideal for calming rosacea and eczema symptoms.</p><p><strong>Deep Near-Infrared light (1072nm)</strong><br/>The deepest-penetrating wavelength, clinically shown to stimulate fibroblast (skin cell) activity for intensive collagen and elastin renewal. Helps firm sagging skin, reduce wrinkles at a structural level, and relieve muscular tension in the face and jaw.<br/><br/><strong>Blue light (415nm)</strong><br/>Targets acne and blemishes by neutralising bacteria, leaving your skin clearer and smoother.<br/><br/><strong>Green light (525nm)</strong><br/>Targets inflamed blood vessels beneath the skin to even out skin tone and fade discoloration for a more balanced, radiant complexion. The most effective LED for reducing the appearance of Rosacea.<br/><strong><br/>Purple light (405nm)</strong><br/>Combines red and blue light benefits to stimulate collagen production whilst attacking blemishes to improve skin texture and promote a revitalised appearance.<br/><br/><strong>Yellow light (590nm)</strong><br/><em>[Our founder's favourite setting] </em>Soothes sensitive skin and reduces redness, unveiling brighter, bouncier skin.<br/><br/><strong>White light (600nm)</strong><br/>Penetrates deep into the skin to promote cell regeneration, helping to smooth texture and improve skin health over time. Best for treating stubborn eczema and aids in visible reduction of Rosacea alongside green light. <br/><br/><strong>Cyan light (500nm)</strong><br/>Combines blue and green light to target both breakouts and uneven skin tone, reducing pore congestion while promoting a more radiant look.</p>"
+          }
+        },
+        "question_KyeTi4": {
+          "type": "question",
+          "settings": {
+            "title": "How to use",
+            "answer": "<p></p><p><strong>1 - Cleanse Your Face:</strong> Start with a freshly cleansed, makeup-free face.</p><p><strong>2 - Select a Light Mode:</strong> Using the DermaGlow remote, choose the LED mode that best suits your skin needs. </p><p><strong>3 - Secure the Mask:</strong> Position the mask over your face and neck and secure with the velcro straps.</p><p><strong>4 - The Session:</strong> Press the power button to start your treatment - remove once the 5-minute treatment is over. </p><p><strong>5 - Finish Up:</strong> Remove the mask and continue with your regular skincare routine.</p><p><em>For best results, finish your skincare routine and moisturiser after treatment.</em></p>"
+          }
+        },
+        "question_dhQ476": {
+          "type": "question",
+          "settings": {
+            "title": "How often to use",
+            "answer": "<p></p><p>For best results, our in-house dermatologists recommend using the DermaGlow 3–6 times per week.</p><p>We recommend everyone, even regular LED therapy users, follow these recommendations. </p><p>In your first week, begin with 3 sessions per week. This allows your skin to adjust to the powerful medical-grade LEDs.</p><p>Once your skin has adjusted and is responding well, increase the number of weekly treatments to up to 6 sessions per week. </p><p>We always recommend a minimum of 1 day per week where we allow the skin to rest fully.</p>"
+          }
+        },
+        "question_QgpCxQ": {
+          "type": "question",
+          "settings": {
+            "title": "Specifications",
+            "answer": "<p></p><p><strong>LEDs:</strong> 504</p><p><strong>Deep NI/NI bulbs: </strong>336</p><p><strong>Irradiance:</strong> 45mW/cm²</p><p><strong>Weight: </strong>271g (Face and Neck)</p><p><strong>Treatment modes:</strong> Seven</p><p><strong>Wavelengths: </strong>Nine</p><p><strong>Wavelength range: </strong>405nm - 1072nm</p><p><strong>Coverage: </strong>Full face, neck, chin, decollete</p><p><strong>Power: </strong>Plug in</p><p><strong>Size: </strong>One size</p><p><strong>Material: </strong>Silicone</p><p><strong>Usage: </strong>Hands free and self timed</p><p><strong>Certification:</strong> UKCA & CE approved</p>"
+          }
+        },
+        "question_eRVUNT": {
+          "type": "question",
+          "settings": {
+            "title": "What's included",
+            "answer": "<p></p><ul><li>Acid Eclipse™  DermaGlow LED Light Therapy Mask Version 2 (face + neck piece)</li><li>Silicone eye protectors (x2)</li><li>Satin Drawstring Bag</li><li>Plug and remote</li><li>User guide</li></ul>"
+          }
+        },
+        "category_ifJFKM": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping & Returns"
+          }
+        },
+        "question_7JHQWQ": {
+          "type": "question",
+          "settings": {
+            "title": "Shipping",
+            "answer": "<p></p><p><strong>Shipping times</strong><br/><br/>We offer <strong>Free Tracked Shipping</strong> (3-7 business days) to the UK, USA, Germany and Austria.</p><p><strong>Processing times</strong></p><p>Orders placed before 14:00 are guaranteed to be shipped same day (Mon-Sat). Orders placed after this time will be shipped the following day.</p><p><strong>Info</strong></p><p>We hold stock in the UK, US and Australia, so no matter where you are in the world, we can get your order to you. </p><p>Our team is here for you. Feel free to <a href=\"/pages/contact\" target=\"_blank\" title=\"Contact us\">contact us </a>if you have any questions about shipping.</p>"
+          }
+        },
+        "question_D8TC4T": {
+          "type": "question",
+          "settings": {
+            "title": "Returns & Warranty",
+            "answer": "<p></p><p>We offer a 60-day, no-risk, Happiness Guarantee. Try out your DermaGlow for yourself; and if you aren’t 100% happy with your purchase, return it within 60 days for a full refund, no questions asked.</p><p>Please return items to:</p><p><strong>Acid Eclipse Office, 8 Chainey Pieces, Haverhill, Suffolk, CB9 8BG, United Kingdom</strong></p><p>The Acid Eclipse™ DermaGlow LED Light Therapy Mask: Version 2 also comes with a full year manufacturers warranty. If anything goes wrong with your mask in the first year after purchase, we'll replace it for free.<br/><br/>Read our full <a href=\"/pages/returns-policy\" target=\"_blank\" title=\"Returns Policy\">Returns Policy.</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_XqgLVa",
+        "question_xbLpNK",
+        "question_ibXPy8",
+        "question_KyeTi4",
+        "question_dhQ476",
+        "question_QgpCxQ",
+        "question_eRVUNT",
+        "category_ifJFKM",
+        "question_7JHQWQ",
+        "question_D8TC4T"
+      ],
+      "custom_css": [
+        "h1.heading.h2 {font-size: 20px !important;}"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "show_navigation": false,
+        "title": "Useful information",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "dc5b6ad0-3ba5-42ba-a301-2d6b84702967": {
+          "type": "trust",
+          "settings": {
+            "icon_1": "picto-chat",
+            "title_1": "Shipping & Returns",
+            "content_1": "<p>Add text about your shipping policy</p>",
+            "icon_2": "picto-warranty",
+            "title_2": "Warranty",
+            "content_2": "<p>Add text about your product warranty</p>",
+            "icon_3": "picto-secure-payment",
+            "title_3": "Secure Payment",
+            "content_3": "<p>Add text about your payment</p>"
+          }
+        }
+      },
+      "block_order": [
+        "description",
+        "dc5b6ad0-3ba5-42ba-a301-2d6b84702967"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "product_recommendations_7czcDR": {
+      "type": "product-recommendations",
+      "custom_css": [
+        "product-recommendations .container {padding-top: 20px; padding-bottom: 20px;}"
+      ],
+      "name": "Related products",
+      "settings": {
+        "subheading": "",
+        "title": "Frequently bought together",
+        "recommendations_count": 4,
+        "background": "#f3f3f3",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "170103446944ead705": {
+      "type": "apps",
+      "blocks": {
+        "air_product_reviews_app_block_review_list_P7KAbP": {
+          "type": "shopify://apps/air-product-reviews/blocks/app-block-review-list/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
+          "settings": {
+            "air_blockreviews_summaryHeading": "Reviews",
+            "air_blockreviews_layout": "list",
+            "air_blockreviews_singleStarColor": "#16a086",
+            "air_blockreviews_primaryColor": "#121212"
+          }
+        }
+      },
+      "block_order": [
+        "air_product_reviews_app_block_review_list_P7KAbP"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ss_product_videos_4_BkaDBJ",
+    "ss_before_after_image_e7cBBW",
+    "ss_delivery_timer_jJzCLN",
+    "ss_testimonial_12_xj7gFi",
+    "faq_wWfLA7",
+    "slideshow_4azhtm",
+    "ss_scrolling_logo_cloud_LaB6Ut",
+    "faq_WwaXBM",
+    "product-content",
+    "product_recommendations_7czcDR",
+    "170103446944ead705"
+  ]
+}
