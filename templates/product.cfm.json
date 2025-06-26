@@ -238,11 +238,11 @@
             "cover": true,
             "before_text": "Before",
             "after_text": "After 4 weeks",
-            "before_text_color": "#FFFFFF",
-            "after_text_color": "#FFFFFF",
+            "before_text_color": "#ffffff",
+            "after_text_color": "#ffffff",
             "before_after_text_position": "bottom",
             "drag_initial_position": 60,
-            "drag_cursor_bg": "#FFFFFF",
+            "drag_cursor_bg": "#ffffff",
             "drag_cursor_color": "#000000"
           }
         }
@@ -253,7 +253,7 @@
       ],
       "name": "SS - Before & After",
       "settings": {
-        "background_color": "transparent",
+        "background_color": "rgba(0,0,0,0)",
         "background": "",
         "padding_top": 36,
         "padding_bottom": 36,
@@ -333,14 +333,14 @@
         "title_size_mobile": 12,
         "title_height": 130,
         "title_mt": 10,
-        "item_border_color": "#DEDEDF",
-        "icon_bg_color": "#4D4D4D",
-        "icon_color": "#FFFFFF",
-        "line_color": "#4D4D4D",
+        "item_border_color": "#dededf",
+        "icon_bg_color": "#4d4d4d",
+        "icon_color": "#ffffff",
+        "line_color": "#4d4d4d",
         "date_color": "#787878",
         "title_color": "#787878",
         "heading_color": "#787878",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
@@ -473,7 +473,7 @@
         "dots_show_mobile": true,
         "btn_icon_size": 50,
         "btn_icon_size_mobile": 40,
-        "card_bg_color": "#FFFFFF",
+        "card_bg_color": "#ffffff",
         "card_bg_gradient": "",
         "card_border_color": "#a8a9e0",
         "card_shadow_color": "#000000",
@@ -481,7 +481,7 @@
         "stars_color": "#323232",
         "text_color": "#323232",
         "author_color": "#323232",
-        "video_icon_bg_color": "#FFFFFF",
+        "video_icon_bg_color": "#ffffff",
         "video_icon_color": "#000000",
         "arrow_color": "#837c5c",
         "arrow_hover_color": "#837c5c",
@@ -620,6 +620,20 @@
       "disabled": true,
       "settings": {}
     },
+    "product_recommendations_7czcDR": {
+      "type": "product-recommendations",
+      "custom_css": [
+        "product-recommendations .container {padding-top: 20px; padding-bottom: 20px;}"
+      ],
+      "name": "Related products",
+      "settings": {
+        "subheading": "",
+        "title": "Frequently bought together",
+        "recommendations_count": 4,
+        "background": "#f3f3f3",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "170103446944ead705": {
       "type": "apps",
       "blocks": {
@@ -640,17 +654,6 @@
         "include_horizontal_margins": true,
         "include_vertical_margins": true
       }
-    },
-    "product_recommendations_7czcDR": {
-      "type": "product-recommendations",
-      "name": "Related products",
-      "settings": {
-        "subheading": "",
-        "title": "You may also like",
-        "recommendations_count": 4,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
     }
   },
   "order": [
@@ -661,7 +664,7 @@
     "ss_testimonial_12_xj7gFi",
     "faq_WwaXBM",
     "product-content",
-    "170103446944ead705",
-    "product_recommendations_7czcDR"
+    "product_recommendations_7czcDR",
+    "170103446944ead705"
   ]
 }
