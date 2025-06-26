@@ -12,15 +12,15 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "air_product_reviews_app_summary_block_Vz9jY4": {
+          "type": "shopify://apps/air-product-reviews/blocks/app-summary-block/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
+          "settings": {}
+        },
         "liquid_7pCHPj": {
           "type": "liquid",
           "settings": {
             "liquid": "<div id='ss-product-video-4'></div>"
           }
-        },
-        "air_product_reviews_app_summary_block_Vz9jY4": {
-          "type": "shopify://apps/air-product-reviews/blocks/app-summary-block/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
-          "settings": {}
         },
         "description_gLVVbJ": {
           "type": "description",
@@ -58,8 +58,8 @@
         }
       },
       "block_order": [
-        "liquid_7pCHPj",
         "air_product_reviews_app_summary_block_Vz9jY4",
+        "liquid_7pCHPj",
         "description_gLVVbJ",
         "variant_picker",
         "quantity_selector_YVyjEc",
