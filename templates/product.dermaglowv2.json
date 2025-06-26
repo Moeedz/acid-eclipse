@@ -234,8 +234,8 @@
           "type": "text",
           "settings": {
             "subheading": "",
-            "heading": "CONSISTENT USE RESULT",
-            "content": "<p>Consistent use of our Bio-Collagen Real Deep Mask (once per week) has been proven to improve hydration and complexion whilst reducing the appearance of fine lines, wrinkles, pores, scarring and uneven pigmentation in 91% of the 200 women surveyed.</p>",
+            "heading": "12-Week Study",
+            "content": "<p>A third party study was run from February - May with 200 men and women (aged 38 - 52). After using the Acid Eclipse™ DermaGlow LED Light Therapy Mask: Version 2 for 12 weeks we asked them if they were pleased with the results and would recommend this product: <strong>94% said yes.</strong></p>",
             "text_position": "center",
             "color": "#000000"
           }
@@ -246,11 +246,11 @@
             "desktop_height": 500,
             "mobile_height": 400,
             "border_radius": 26,
-            "before_image": "shopify://shop_images/2-min.png",
-            "after_image": "shopify://shop_images/1-min.png",
+            "before_image": "shopify://shop_images/1_4ea11c65-ac70-410f-8ad7-af723e07a90f.png",
+            "after_image": "shopify://shop_images/2_9008e2cc-e09b-4ba2-bea0-05fa9c10b5c9.png",
             "cover": true,
             "before_text": "Before",
-            "after_text": "After 4 weeks",
+            "after_text": "After 12 weeks",
             "before_text_color": "#ffffff",
             "after_text_color": "#ffffff",
             "before_after_text_position": "bottom",
