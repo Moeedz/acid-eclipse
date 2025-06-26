@@ -20,17 +20,6 @@
           "type": "description",
           "settings": {}
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": false,
-            "atc_button_background": "#455090",
-            "atc_button_text_color": "#ffffff",
-            "buy_now_button_background": "rgba(0,0,0,0)",
-            "buy_now_button_text_color": "rgba(0,0,0,0)"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -49,15 +38,26 @@
           "settings": {
             "liquid": "{% if product.available %}\n\n  <div class=\"instock-pulse\">\n    <span class=\"icon--pulsing\"></span>\n    <span>Ready to ship! [Low Stock]</span>\n  </div>\n\n  <style>\n\n    .instock-pulse {\n      display: flex;\n      flex-wrap: nowrap;\n      align-items: center;\n    }\n\n    .icon--pulsing {\n      position: relative;\n      width: 20px;\n      height: 20px;\n      margin-right: 12px;\n    }\n\n    .icon--pulsing:after, \n    .icon--pulsing:before {\n        background: #1BA935;\n        width: 10px;\n        height: 10px;\n        border-radius: 10px;\n        position: absolute;\n        left: 5px;\n        top: 0;\n        content: \"\";\n        margin: 5px;\n    }\n\n    @keyframes inventory-pulse{\n      0%{\n        opacity:0.5;\n      }\n      to{\n        transform:scale(2.5);\n        opacity:0;\n      }\n    }\n\n    .icon--pulsing:before {\n        animation: inventory-pulse 2s linear infinite;\n    }\n\n  </style>\n\n{% endif %}"
           }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "#455090",
+            "atc_button_text_color": "#ffffff",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
         }
       },
       "block_order": [
         "air_product_reviews_app_summary_block_Vz9jY4",
         "description_gLVVbJ",
-        "buy_buttons",
         "variant_picker",
         "quantity_selector_YVyjEc",
-        "liquid_FciePi"
+        "liquid_FciePi",
+        "buy_buttons"
       ],
       "settings": {
         "show_vendor": false,
