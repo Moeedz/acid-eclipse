@@ -272,6 +272,86 @@
         "section-width": 120
       }
     },
+    "faq_WwaXBM": {
+      "type": "faq",
+      "blocks": {
+        "category_XqgLVa": {
+          "type": "category",
+          "settings": {
+            "title": "Details"
+          }
+        },
+        "question_xbLpNK": {
+          "type": "question",
+          "settings": {
+            "title": "How to use",
+            "answer": "<p></p><p><strong>1 - Cleanse</strong>: Start with a clean face and neck. Use your preferred cleanser and pat dry with a towel.</p><p><strong>2 - Apply</strong>: Take a small amount of the cream and gently apply it to your neck, upper chest and below you chin.</p><p><strong>3 - Massage</strong>: Use upward, circular motions to massage the cream into your skin until fully absorbed.</p><p><strong>4 - Use Twice Daily</strong>: For best results, apply the cream in the morning and before bed.</p><p><strong>5 - Consistency</strong>: Use the cream regularly to maintain and enhance results.</p>"
+          }
+        },
+        "question_ibXPy8": {
+          "type": "question",
+          "settings": {
+            "title": "Description",
+            "answer": "<p></p><p>The viral, award winning Tighten and Lift Neck Cream features a patented blend; specifically created to moisturise, firm and smooth the look of the delicate skin on your neck and chest.</p><p></p><ul><li>Firms the look of thin, loose skin</li><li>Smooths and reduces visibility of fine lines and wrinkles</li><li>Lifts and tightens sagging skin, particularly on the neck and below the chin</li></ul><p></p><p>The following figures are based on a consumer perception questionnaire, completed by 258 women aged 40 - 65, after using the Tighten & Lift Neck Cream for 4 weeks.</p><p><strong>94%</strong> said their skin, in an areas that had been loose and sagging, looked and felt firmer</p><p><strong>91%</strong> said their wrinkles and fine lines on their neck, chest and below their chin had a significantly improved appearance</p>"
+          }
+        },
+        "question_KyeTi4": {
+          "type": "question",
+          "settings": {
+            "title": "What's in the box",
+            "answer": "<p></p><p>Go Pure™ Tighten & Lift Neck Cream - 50ml</p>"
+          }
+        },
+        "question_QgpCxQ": {
+          "type": "question",
+          "settings": {
+            "title": "Ingredients",
+            "answer": "<p></p><p>AQUA / WATER•GLYCERIN•DIMETHICONE•REDYLESS•VEXEL-SP•MATRIBUSTHYDROGENATED POLYISOBUTENE•CETYL ALCOHOL•GLYCERYL STEARATE•ALUMINUM STARCH OCTENYLSUCCINATE•PEG-40 STEARATE• PRUNUS ARMENIACA KERNEL OIL / APRICOT KERNEL OIL • SHOREA ROBUSTA SEED BUTTER • PARAFFINUM LIQUIDUM / MINERAL OIL • PARAFFIN •STEARIC ACID•STEARYL ALCOHOL• CERA MICROCRISTALLINA / MICROCRYSTALLINE WAX •SORBITAN OLEATE•SORBITAN TRISTEARATE• GLYCINE SOJA PROTEIN / SOYBEAN PROTEIN •TRIETHANOLAMINE•ISOHEXADECANE•SODIUM COCOYL GLUTAMATE•MYRISTIC ACID•MYRISTYL ALCOHOL•PALMITIC ACID•HYDROLYZED SOY PROTEIN•CAPRYLYL GLYCOL• ACETYL TRIFLUOROMETHYLPHENYL VALYLGLYCINE •PENTYLENE GLYCOL• FAEX EXTRACT / YEAST EXTRACT •ETHYLHEXYLGLYCERIN•POLYSORBATE 80•ACRYLAMIDE/SODIUM ACRYLOYLDIMETHYLTAURATE COPOLYMER•BHT•RETINYL PALMITATE•TOCOPHEROL•PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE•POTASSIUM SORBATE•SODIUM BENZOATE•PHENOXYETHANOL•LINALOOL•GERANIOL•ALPHA-ISOMETHYL IONONE•LIMONENE•CITRAL•CITRONELLOL•BENZYL ALCOHOL</p>"
+          }
+        },
+        "category_ifJFKM": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping & Returns"
+          }
+        },
+        "question_7JHQWQ": {
+          "type": "question",
+          "settings": {
+            "title": "Shipping",
+            "answer": "<p></p><p><strong>Shipping times</strong><br/><br/>We offer <strong>Free Tracked Shipping</strong> (4-7 working days)<strong> </strong>on all orders over a certain price. This price depends on your currency however for reference, shipping will be free if you spend £40 (UK), $50 (USA) or $80 AUD (Australia).</p><p><strong>Processing times</strong></p><p>Orders placed before 14:00 am are guaranteed to be shipped same day (Mon-Sat). Orders placed after this time will be shipped the following day.</p><p><strong>Info</strong></p><p>We hold stock in the UK, US and Australia, so no matter where you are in the world, we can get your order to you. </p><p>Our team is here for you. Feel free to <a href=\"/pages/contact\" target=\"_blank\" title=\"Contact us\">contact us </a>if you have any questions about shipping services.</p>"
+          }
+        },
+        "question_D8TC4T": {
+          "type": "question",
+          "settings": {
+            "title": "Returns & Guarantee",
+            "answer": "<p></p><p>We offer a 60-day, no-risk, no questions asked, Happiness Guarantee. Try out our cream for yourself; and if you aren’t 100% happy with your purchase, return it (what's left of it) within 60 days for a full refund. </p><p>We will refund you within 60 days no questions asked! The cream does not need to be in new condition and untouched. We know you'll need to open it and test it in order to see if you like it.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_XqgLVa",
+        "question_xbLpNK",
+        "question_ibXPy8",
+        "question_KyeTi4",
+        "question_QgpCxQ",
+        "category_ifJFKM",
+        "question_7JHQWQ",
+        "question_D8TC4T"
+      ],
+      "custom_css": [
+        "h1.heading.h2 {font-size: 20px !important;}"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "show_navigation": false,
+        "title": "Order by 2pm for dispatch today 60-Day happiness guarantee",
+        "content": "<p>60 days - from date of purchase - to request a full refund. No questions asked.</p>",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "ss_delivery_timer_jJzCLN": {
       "type": "ss-delivery-timer",
       "blocks": {
@@ -515,94 +595,6 @@
         "lazy": true
       }
     },
-    "faq_WwaXBM": {
-      "type": "faq",
-      "blocks": {
-        "category_XqgLVa": {
-          "type": "category",
-          "settings": {
-            "title": "Details"
-          }
-        },
-        "question_xbLpNK": {
-          "type": "question",
-          "settings": {
-            "title": "Description",
-            "answer": "<p></p><p><strong>DEEP HYDRATION</strong></p><p>The oligo-hyaluronic acid found in the Bio-Collagen Real Deep Mask has a moisturising effect that is superior to that of regular hyaluronic acid. It quickly hydrates the skin's surface and penetrates deeper layers of skin resulting in a healthy, moisturised and bright complexion.</p><p><strong>PORE TIGHTENING & FINE LINE FIRMING</strong></p><p>Ultra-low molecular collagen maximises skin penetration and absorption. It refines enlarged pores, improves skin elasticity instantly after application and visibly smooths out the appearance of fine lines and wrinkles.</p><p><strong>STRENGTHEN THE SKIN’S BARRIER</strong></p><p>Our hydrogel mask contains 3 different kinds of probiotics that strengthen the skin’s barrier and prevent skin aging.</p><p><strong>HYPOALLERGENIC</strong></p><p>This deep hydrating facial mask is formulated with non-toxic & non-irritant ingredients. It is free of allergic reaction-causing ingredients and 19 other harsh, controversial ingredients. It is completely safe for sensitive skin.</p>"
-          }
-        },
-        "question_ibXPy8": {
-          "type": "question",
-          "settings": {
-            "title": "How to use",
-            "answer": "<p></p><p><strong>OVERNIGHT</strong></p><p>Apply the mask at the end of your skincare routine, to a clean and dry face, and leave it on overnight.</p><p>Remove the mask the next morning after a good night's sleep.<br/><br/><strong>DAYTIME</strong></p><p>After preparing the skin with the toner or serum of your choice, apply the mask and leave it on for 3-4 hours or until it becomes transparent.</p><p>The mask contains its own blend of serums and probiotics so preparing the skin with your own serum or toner is not necessary. However, this extra step primes your skin, allowing it to absorb more of the active ingredients. The mask then locks in the moisture and nutrients, boosting the overall effectiveness of your skincare routine.<br/><br/><strong>PRO TIP</strong></p><p>Use the eyes and mouth parts of the mask on the sides of the nose, under eyes, neck, or anywhere you want additional hydration and firming.</p>"
-          }
-        },
-        "question_KyeTi4": {
-          "type": "question",
-          "settings": {
-            "title": "What's in the box",
-            "answer": "<p></p><p>Bio-Collagen™ Real Deep Mask - Up to 10 masks</p><p></p><p>If you would like to order more than 10 Bio-Collagen™ Real Deep Mask's at a time then contact us at hello@acideclipse.com for bulk pricing. </p>"
-          }
-        },
-        "question_dhQ476": {
-          "type": "question",
-          "settings": {
-            "title": "Main ingredients",
-            "answer": "<ul><li>Low-Molecular Weight Collagen Peptide</li><li>Galactomyces</li><li>Oligo Hyaluronic Acid</li><li>Niacinamide</li></ul>"
-          }
-        },
-        "question_QgpCxQ": {
-          "type": "question",
-          "settings": {
-            "title": "Ingredients",
-            "answer": "<p></p><p>Water, Collagen Extract, Galactomyces Ferment Filtrate, Glycerin, Acrylates Copolymer, Niacinamide, Ceratonia Siliqua (Carob) Gum, Chondrus Crispus Extract, Betaine, Algin, Dipropylene Glycol, Agar, Hydroxyacetophenone, 1,2-Hexanediol, Potassium Chloride, Polyglyceryl-10 Laurate, Caprylyl Glycol, Sucrose, Butylene Glycol, Allantoin, Ethylhexylglycerin, Hydrolyzed Hyaluronic Acid, Adenosine, Disodium EDTA, Pyrus Communis (Pear) Fruit Extract, Rosa Damascena Flower Water, Iris Florentina Root Extract, Cucumis Melo (Melon) Fruit Extract, Hedera Helix (Ivy) Leaf/Stem Extract, Dipotassium, Glycyrrhizate, Bifida Ferment Filtrate, Tocopherol, Lactobacillus Ferment, Lactobacillus Ferment Lysate</p>"
-          }
-        },
-        "category_ifJFKM": {
-          "type": "category",
-          "settings": {
-            "title": "Shipping & Returns"
-          }
-        },
-        "question_7JHQWQ": {
-          "type": "question",
-          "settings": {
-            "title": "Shipping",
-            "answer": "<p></p><p><strong>Shipping times</strong><br/><br/>We offer <strong>Free Tracked Shipping</strong> (4-7 working days)<strong> </strong>on all orders over a certain price. This price depends on your currency however for reference, shipping will be free if you spend £40 (UK), $50 (USA) or $80 AUD (Australia).</p><p><strong>Processing times</strong></p><p>Orders placed before 14:00 am are guaranteed to be shipped same day (Mon-Sat). Orders placed after this time will be shipped the following day.</p><p><strong>Info</strong></p><p>We hold stock in the UK, US and Australia, so no matter where you are in the world, we can get your order to you. </p><p>Our team is here for you. Feel free to <a href=\"/pages/contact\" target=\"_blank\" title=\"Contact us\">contact us </a>if you have any questions about shipping services.</p>"
-          }
-        },
-        "question_D8TC4T": {
-          "type": "question",
-          "settings": {
-            "title": "Returns & Guarantee",
-            "answer": "<p></p><p>We offer a 60-day, no-risk, no questions asked, Happiness Guarantee. Try out our cream for yourself; and if you aren’t 100% happy with your purchase, return it (what's left of it) within 60 days for a full refund. </p><p>We will refund you within 60 days no questions asked! The cream does not need to be in new condition and untouched. We know you'll need to open it and test it in order to see if you like it.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "category_XqgLVa",
-        "question_xbLpNK",
-        "question_ibXPy8",
-        "question_KyeTi4",
-        "question_dhQ476",
-        "question_QgpCxQ",
-        "category_ifJFKM",
-        "question_7JHQWQ",
-        "question_D8TC4T"
-      ],
-      "custom_css": [
-        "h1.heading.h2 {font-size: 20px !important;}"
-      ],
-      "name": "FAQ",
-      "settings": {
-        "show_navigation": false,
-        "title": "Order by 2pm for dispatch today 60-Day happiness guarantee",
-        "content": "<p>60 days - from date of purchase - to request a full refund. No questions asked.</p>",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
     "product-content": {
       "type": "product-content",
       "blocks": {
@@ -672,9 +664,9 @@
     "main",
     "ss_product_videos_4_BkaDBJ",
     "ss_before_after_image_e7cBBW",
+    "faq_WwaXBM",
     "ss_delivery_timer_jJzCLN",
     "ss_testimonial_12_xj7gFi",
-    "faq_WwaXBM",
     "product-content",
     "product_recommendations_7czcDR",
     "170103446944ead705"
