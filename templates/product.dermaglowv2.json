@@ -555,6 +555,32 @@
         "lazy": true
       }
     },
+    "faq_wWfLA7": {
+      "type": "faq",
+      "blocks": {
+        "question_cPrnyY": {
+          "type": "question",
+          "settings": {
+            "title": "Read more",
+            "answer": "<p></p><p>If you’re in perimenopause or menopause and unsure how to care for your changing skin, you're not alone - and we’re here to help.</p><p>The upgraded DermaGlow Version 2 took over a year to perfect - with 30 prototypes, and input from dermatologists with over 120 years of combined experience.</p><p>We know what skin at this stage of life needs. That's how we know you will look younger, within 60 days, if you use the DermaGlow V2 as advised.</p><p>We're so confident - we'll refund you in full if you're not impressed with your results.</p><p>We asked 500 real customers (all women aged 40-50) why they chose the DermaGlow V2. <a href=\"/pages/5-reasons-why-women-aged-40-50-are-switching-to-the-dermaglow-v2-mask\" target=\"_blank\" title=\"5 Reasons Women Aged 40-50 are Switching to the DermaGlow V2 Mask\"><strong>Read the blog here.</strong></a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_cPrnyY"
+      ],
+      "custom_css": [
+        ".faq__item {background: #e5e5e5;}"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "show_navigation": false,
+        "title": "LOOK 5 YEARS YOUNGER IN 60 DAYS OR YOUR MONEY BACK",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "faq_WwaXBM": {
       "type": "faq",
       "blocks": {
@@ -714,6 +740,7 @@
     "ss_before_after_image_e7cBBW",
     "ss_delivery_timer_jJzCLN",
     "ss_testimonial_12_xj7gFi",
+    "faq_wWfLA7",
     "faq_WwaXBM",
     "product-content",
     "product_recommendations_7czcDR",
