@@ -19,12 +19,11 @@
         "text_eLfjwL": {
           "type": "text",
           "settings": {
-            "text": "<p>FDA and UKCA-cleared. Dermatologist-recommended infrared light and EMS therapy device with clinically proven results for improving appearance of: Under-Eye Bags, Wrinkles, Eczema, Dark Circles.</p>"
+            "text": "<p>Rejuvenate your face and neck! Achieve smoother, firmer, younger looking skin in as little as 2-weeks. Reduce fine lines, redness and wrinkles, and enhance the absorption of your skincare products.</p>"
           }
         },
         "description_gLVVbJ": {
           "type": "description",
-          "disabled": true,
           "settings": {}
         },
         "variant_picker": {
@@ -235,8 +234,8 @@
           "type": "text",
           "settings": {
             "subheading": "",
-            "heading": "12-Week Study",
-            "content": "<p>A third party study was run from Jan - Mar 2025 with 350-subjects (294 women & 56 men aged 40 to 70) study after 12-weeks daily use. After using the Acid Eclipse™ DermaGlow Glasses for 12 weeks we asked them if they were pleased with the results and would recommend this product: <strong>94% said yes.</strong></p>",
+            "heading": "Real results",
+            "content": "<p>Consistent use of our EMS Face Toner (five minutes daily) has been proven to reduce sagging skin, the appearance of fine lines and wrinkles and uneven pigmentation in 92% of the 100 women surveyed.</p>",
             "text_position": "center",
             "color": "#000000"
           }
@@ -247,8 +246,8 @@
             "desktop_height": 500,
             "mobile_height": 400,
             "border_radius": 26,
-            "before_image": "shopify://shop_images/1_38edf2dd-39d1-4293-9d9b-50922f55773c.png",
-            "after_image": "shopify://shop_images/2_221c25cd-84f3-461c-937a-ec593f7a088d.png",
+            "before_image": "shopify://shop_images/1_3ff30f65-0939-489c-8a61-c2a42b89fdfc.png",
+            "after_image": "shopify://shop_images/2_ab16c1f0-8d65-45be-963d-98b8f2b28113.png",
             "cover": true,
             "before_text": "Before",
             "after_text": "After 12 weeks",
