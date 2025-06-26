@@ -319,14 +319,14 @@
           "type": "question",
           "settings": {
             "title": "Shipping",
-            "answer": "<p></p><p><strong>Shipping times</strong><br/><br/>We offer <strong>Free Tracked Shipping</strong> (4-7 working days)<strong> </strong>on all orders over a certain price. This price depends on your currency however for reference, shipping will be free if you spend £40 (UK), $50 (USA) or $80 AUD (Australia).</p><p><strong>Processing times</strong></p><p>Orders placed before 14:00 am are guaranteed to be shipped same day (Mon-Sat). Orders placed after this time will be shipped the following day.</p><p><strong>Info</strong></p><p>We hold stock in the UK, US and Australia, so no matter where you are in the world, we can get your order to you. </p><p>Our team is here for you. Feel free to <a href=\"/pages/contact\" target=\"_blank\" title=\"Contact us\">contact us </a>if you have any questions about shipping services.</p>"
+            "answer": "<p></p><p><strong>Shipping times</strong><br/><br/>We offer <strong>Free Tracked Shipping</strong> (4-7 working days)<strong> </strong>on all orders over a certain price. If you are shopping from the UK shipping will be free for all orders over £50, for customers in Europe shipping will be free for orders over €30.</p><p><strong>Processing times</strong></p><p>Orders placed before 14:00 am are guaranteed to be shipped same day (Mon-Sat). Orders placed after this time will be shipped the following day.</p><p><strong>Info</strong></p><p>We hold stock in the UK, Latvia, US and China, so no matter where you are in the world, we can get your order to you. </p><p>Read our <a href=\"/pages/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\">Shipping Policy</a>.</p><p>Our team is here for you. Feel free to <a href=\"/pages/contact\" target=\"_blank\" title=\"Contact us\">contact us </a>if you have any questions about shipping services.</p>"
           }
         },
         "question_D8TC4T": {
           "type": "question",
           "settings": {
             "title": "Returns & Guarantee",
-            "answer": "<p></p><p>We offer a 60-day, no-risk, no questions asked, Happiness Guarantee. Try out our cream for yourself; and if you aren’t 100% happy with your purchase, return it (what's left of it) within 60 days for a full refund. </p><p>We will refund you within 60 days no questions asked! The cream does not need to be in new condition and untouched. We know you'll need to open it and test it in order to see if you like it.</p>"
+            "answer": "<p></p><p>We offer a 60-day, no-risk, no questions asked, \"Happiness Guarantee\". Try out your cream for yourself; and if you aren’t 100% happy with your purchase, return it (what's left of it) within 60 days for a full refund. </p><p>We will refund you within 60 days no questions asked! The cream does not need to be in new condition and untouched. We know you'll need to open it and test it in order to see if you like it.</p><p>Read our <a href=\"/pages/returns-policy\" target=\"_blank\" title=\"Returns Policy\">Returns Policy</a> and R<a href=\"/pages/returning-an-item\" target=\"_blank\" title=\"Returning an item\">eturning an Item</a> for more info.</p>"
           }
         }
       },
