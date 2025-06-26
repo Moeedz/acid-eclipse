@@ -1,0 +1,839 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "air_product_reviews_app_summary_block_fDY3mH": {
+          "type": "shopify://apps/air-product-reviews/blocks/app-summary-block/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
+          "settings": {}
+        },
+        "text_eLfjwL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>FDA and UKCA-cleared. Dermatologist-recommended infrared light and EMS therapy device with clinically proven results for improving appearance of: Under-Eye Bags, Wrinkles, Eczema, Dark Circles.</p>"
+          }
+        },
+        "description_gLVVbJ": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "variant_image",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_YVyjEc": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "liquid_FciePi": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% if product.available %}\n\n  <div class=\"instock-pulse\">\n    <span class=\"icon--pulsing\"></span>\n    <span>Ready to ship! [Low Stock]</span>\n  </div>\n\n  <style>\n\n    .instock-pulse {\n      display: flex;\n      flex-wrap: nowrap;\n      align-items: center;\n    }\n\n    .icon--pulsing {\n      position: relative;\n      width: 20px;\n      height: 20px;\n      margin-right: 12px;\n    }\n\n    .icon--pulsing:after, \n    .icon--pulsing:before {\n        background: #1BA935;\n        width: 10px;\n        height: 10px;\n        border-radius: 10px;\n        position: absolute;\n        left: 5px;\n        top: 0;\n        content: \"\";\n        margin: 5px;\n    }\n\n    @keyframes inventory-pulse{\n      0%{\n        opacity:0.5;\n      }\n      to{\n        transform:scale(2.5);\n        opacity:0;\n      }\n    }\n\n    .icon--pulsing:before {\n        animation: inventory-pulse 2s linear infinite;\n    }\n\n  </style>\n\n{% endif %}"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "#455090",
+            "atc_button_text_color": "#ffffff",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "air_product_reviews_app_summary_block_fDY3mH",
+        "text_eLfjwL",
+        "description_gLVVbJ",
+        "variant_picker",
+        "quantity_selector_YVyjEc",
+        "liquid_FciePi",
+        "buy_buttons"
+      ],
+      "settings": {
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": true,
+        "show_product_rating": true,
+        "show_sticky_add_to_cart": true,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_image_zoom": false,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide"
+      }
+    },
+    "ss_product_videos_4_BkaDBJ": {
+      "type": "ss-product-videos-4",
+      "blocks": {
+        "video_jTRbXm": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/7a06dacf1e62ecf1de65834545f796ba.mp4",
+            "preload_video": "shopify://files/videos/0206 (3)(2).mp4",
+            "title": ""
+          }
+        },
+        "video_4jWAUU": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/0206 (3).mp4",
+            "preload_video": "shopify://files/videos/0206 (3)(1).mp4",
+            "title": ""
+          }
+        },
+        "video_7pjFKU": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/d9930ec576a90fd9636899753fbaeac7.mp4",
+            "preload_video": "shopify://files/videos/0206 (3)(3).mp4",
+            "title": ""
+          }
+        },
+        "video_36ib4G": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/27b09844180b66356a08ca19bd96fbd1.mp4",
+            "preload_video": "shopify://files/videos/0206 (3)(4).mp4",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_jTRbXm",
+        "video_4jWAUU",
+        "video_7pjFKU",
+        "video_36ib4G"
+      ],
+      "disabled": true,
+      "name": "SS - Product videos #4",
+      "settings": {
+        "videos_position": "above_buy",
+        "heading": "<h3>Tap to play</h3>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 15,
+        "heading_size_mobile": 15,
+        "heading_height": 130,
+        "heading_align": "left",
+        "heading_align_mobile": "left",
+        "slider_view": 4.6,
+        "slider_view_mobile": 3.6,
+        "slider_gap": 16,
+        "slider_gap_mobile": 12,
+        "slider_mt": 4,
+        "slider_mt_mobile": 0,
+        "card_padding": 0,
+        "card_radius": 300,
+        "card_border_thickness": 3,
+        "card_hover": true,
+        "card_first_animation": true,
+        "video_ratio": "square",
+        "video_ratio_mobile": "square",
+        "video_overlay": 0,
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 14,
+        "title_size_mobile": 12,
+        "title_height": 130,
+        "title_mt": 10,
+        "title_mt_mobile": 10,
+        "title_align": "center",
+        "title_align_mobile": "center",
+        "arrow_size": 32,
+        "arrow_size_mobile": 28,
+        "arrow_border_thickness": 0,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": false,
+        "dots_size": 10,
+        "dots_size_mobile": 8,
+        "dots_mt": 0,
+        "dots_mt_mobile": 0,
+        "dots_show_desktop": false,
+        "dots_show_mobile": false,
+        "modal_width": 300,
+        "modal_width_mobile": 260,
+        "modal_padding_vertical": 0,
+        "modal_padding_vertical_mobile": 0,
+        "modal_padding_horizontal": 0,
+        "modal_padding_horizontal_mobile": 0,
+        "modal_radius": 16,
+        "modal_border_thickness": 0,
+        "modal_overlay": 0.3,
+        "modal_video_radius": 0,
+        "modal_video_border_thickness": 0,
+        "modal_video_ratio": "original",
+        "modal_video_ratio_mobile": "original",
+        "use_progress": true,
+        "action_size": 28,
+        "action_size_mobile": 36,
+        "action_border_thickness": 0,
+        "buttons_size": 32,
+        "buttons_size_mobile": 36,
+        "buttons_border_thickness": 0,
+        "card_bg_color": "#ffffff",
+        "card_bg_gradient": "",
+        "card_border_color": "#a8a9e0",
+        "video_overlay_color": "#000000",
+        "card_animation_color": "#a8a9e0",
+        "play_button_color": "#ffffff",
+        "title_color": "#000000",
+        "arrow_color": "#ffffff",
+        "arrow_hover_color": "#ffffff",
+        "arrow_bg_color": "#000000",
+        "arrow_bg_hover_color": "#555555",
+        "arrow_border_color": "#000000",
+        "arrow_border_hover_color": "#555555",
+        "dots_color": "#000000",
+        "modal_overlay_color": "#242424",
+        "modal_bg_color": "#ffffff",
+        "modal_border_color": "#000000",
+        "modal_video_border_color": "#000000",
+        "action_icon_color": "#ffffff",
+        "action_bg_color": "#000000",
+        "action_border_color": "#000000",
+        "buttons_icon_color": "#000000",
+        "buttons_bg_color": "#ffffff",
+        "buttons_border_color": "#000000",
+        "heading_color": "#000000",
+        "background_color": "#ffffff",
+        "border_color": "#000000",
+        "margin_top": -20,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "border_thickness": 0,
+        "lazy": false
+      }
+    },
+    "ss_before_after_image_e7cBBW": {
+      "type": "ss-before-after-image",
+      "blocks": {
+        "text_eCD9KG": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "heading": "12-Week Study",
+            "content": "<p>A third party study was run from Jan - Mar 2025 with 350-subjects (294 women & 56 men aged 40 to 70) study after 12-weeks daily use. After using the Acid Eclipse™ DermaGlow Glasses for 12 weeks we asked them if they were pleased with the results and would recommend this product: <strong>94% said yes.</strong></p>",
+            "text_position": "center",
+            "color": "#000000"
+          }
+        },
+        "images_iHcz4D": {
+          "type": "images",
+          "settings": {
+            "desktop_height": 500,
+            "mobile_height": 400,
+            "border_radius": 26,
+            "before_image": "shopify://shop_images/1_38edf2dd-39d1-4293-9d9b-50922f55773c.png",
+            "after_image": "shopify://shop_images/2_221c25cd-84f3-461c-937a-ec593f7a088d.png",
+            "cover": true,
+            "before_text": "Before",
+            "after_text": "After 12 weeks",
+            "before_text_color": "#ffffff",
+            "after_text_color": "#ffffff",
+            "before_after_text_position": "bottom",
+            "drag_initial_position": 60,
+            "drag_cursor_bg": "#ffffff",
+            "drag_cursor_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "text_eCD9KG",
+        "images_iHcz4D"
+      ],
+      "name": "SS - Before & After",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "background": "",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section-width": 120
+      }
+    },
+    "ss_delivery_timer_jJzCLN": {
+      "type": "ss-delivery-timer",
+      "blocks": {
+        "item_apmHnc": {
+          "type": "item",
+          "settings": {
+            "days": 0,
+            "range": false,
+            "second_days": 0,
+            "weekend": true,
+            "title": "Order placed"
+          }
+        },
+        "item_ePnPny": {
+          "type": "item",
+          "settings": {
+            "days": 0,
+            "range": true,
+            "second_days": 1,
+            "weekend": true,
+            "title": "Dispatched"
+          }
+        },
+        "item_CQtM4Q": {
+          "type": "item",
+          "settings": {
+            "days": 4,
+            "range": true,
+            "second_days": 7,
+            "weekend": true,
+            "title": "Delivered"
+          }
+        }
+      },
+      "block_order": [
+        "item_apmHnc",
+        "item_ePnPny",
+        "item_CQtM4Q"
+      ],
+      "name": "SS - Delivery Timer",
+      "settings": {
+        "delivery_position": "below_buy",
+        "items_style": "first",
+        "heading": "Order by 2pm for dispatch same day.",
+        "heading_use_delivery": false,
+        "heading_custom": true,
+        "heading_font": "archivo_narrow_n6",
+        "heading_size": 15,
+        "heading_size_mobile": 15,
+        "heading_height": 50,
+        "heading_align": "left",
+        "heading_align_mobile": "left",
+        "items_mt": 20,
+        "items_gap": 0,
+        "item_padding_vertical": 10,
+        "item_padding_horizontal": 10,
+        "item_radius": 0,
+        "item_border_thickness": 1,
+        "item_arrow": true,
+        "icon_size": 38,
+        "icon_size_mobile": 36,
+        "date_custom": true,
+        "date_font": "archivo_narrow_n6",
+        "date_size": 13,
+        "date_size_mobile": 13,
+        "date_height": 70,
+        "date_mt": 10,
+        "title_custom": false,
+        "title_font": "archivo_narrow_n4",
+        "title_size": 12,
+        "title_size_mobile": 12,
+        "title_height": 130,
+        "title_mt": 10,
+        "item_border_color": "#dededf",
+        "icon_bg_color": "#4d4d4d",
+        "icon_color": "#ffffff",
+        "line_color": "#4d4d4d",
+        "date_color": "#787878",
+        "title_color": "#787878",
+        "heading_color": "#787878",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 32,
+        "padding_bottom": 40,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "border_thickness": 0
+      }
+    },
+    "ss_testimonial_12_xj7gFi": {
+      "type": "ss-testimonial-12",
+      "blocks": {
+        "slide_D7GMGn": {
+          "type": "slide",
+          "settings": {
+            "media_style": "image",
+            "image": "shopify://shop_images/3_b6d195a2-9c74-45ef-adef-1c24135fcf56.png",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "controls": false,
+            "stars_count": 5,
+            "text": "<p>\"I've struggled with eye bags for years, and no amount of sleep or water ever helped. I was sceptical but after only two weeks, I started seeing a change, I'm now at 9 weeks which is when I took the photo and my bags are SO much better! Way smoother and less puffy. I use them in the evening while relaxing, and I’ve found that the pulsing EMS mode really helps with circulation. I started with 5 minutes at a time and now I use them for 15 minutes, five times a week. It’s an easy addition to my skincare, and I couldn't be happier the results!\"</p>",
+            "author": "<p><strong>Caroline S</strong></p>"
+          }
+        },
+        "slide_VAxQ8g": {
+          "type": "slide",
+          "settings": {
+            "media_style": "image",
+            "image": "shopify://shop_images/1_89cd4b24-bb03-4596-a392-f2a466268bf9.png",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "controls": false,
+            "stars_count": 5,
+            "text": "<p>\"Let me tell you, I’ve tried EVERYTHING for my crow’s feet, and nothing made a real difference. These glasses, however, have been a pleasant surprise! The fine lines around my eyes and my crows feet have softened dramatically, and my skin feels more elastic. I started with the lowest EMS setting because I wasn’t sure how strong it would be, but I now switch between different intensities depending on the day. The red light is soothing, and it’s easy to use while I’m watching TV.\"</p>",
+            "author": "<p><strong>Rachel O</strong></p>"
+          }
+        },
+        "slide_pK8tJi": {
+          "type": "slide",
+          "settings": {
+            "media_style": "image",
+            "image": "shopify://shop_images/B_A_DG_Glasses_90aa0f3b-c42a-4839-a1cd-6ca006b84937.png",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "controls": false,
+            "stars_count": 5,
+            "text": "<p>\"I got these for fine lines and tired eyes, but what really impressed me is how much they’ve helped my hormonal eczema. Since perimenopause, I’d had dry, itchy patches around my eyes that just wouldn’t go away. I was wary of trying anything new, but the red light is so gentle and calming - no irritation at all. After a few weeks, my skin looked calmer and far less flaky. I now use them most evenings for 10–15 minutes and have had fewer flare-ups. It’s such a relief to finally find something that soothes rather than aggravates.\"</p>",
+            "author": "<p>Miranda L</p>"
+          }
+        },
+        "slide_98t6xQ": {
+          "type": "slide",
+          "settings": {
+            "media_style": "image",
+            "image": "shopify://shop_images/B_A_DG_Glasses.png",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "controls": false,
+            "stars_count": 5,
+            "text": "<p>\"It's nice to look awake and refreshed for the first time in years. At 56, puffy under eyes had become the norm for me, until I found these! I use them five times a week, and within a few sessions, I noticed some difference. It was around month 2 when I checked my before photo that I realised just how much of an improvement I'd had... I don't really have eye bags anymore! They're still faintly visible, especially if I'm tired but with makeup they disappear completely. I like to use the pulse on the highest intensity because I really feel it working.\"</p>",
+            "author": "<p><strong>Lorraine K</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_D7GMGn",
+        "slide_VAxQ8g",
+        "slide_pK8tJi",
+        "slide_98t6xQ"
+      ],
+      "name": "SS - Testimonials #12",
+      "settings": {
+        "heading": "<h3>Real Customers - Real Results</h3>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 30,
+        "heading_size_mobile": 30,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "sub_heading": "<p>Email us your review and photos to be added</p>",
+        "sub_heading_custom": false,
+        "sub_heading_font": "josefin_sans_n4",
+        "sub_heading_size": 30,
+        "sub_heading_size_mobile": 14,
+        "sub_heading_height": 130,
+        "sub_heading_mt": 12,
+        "sub_heading_align": "center",
+        "sub_heading_align_mobile": "center",
+        "slider_view": 5.4,
+        "slider_view_mobile": 1.5,
+        "slider_gap": 28,
+        "slider_gap_mobile": 20,
+        "slider_mt": 20,
+        "autoplay": false,
+        "autoplay_delay": 5,
+        "card_padding_vertical": 20,
+        "card_padding_vertical_mobile": 16,
+        "card_padding_horizontal": 20,
+        "card_padding_horizontal_mobile": 16,
+        "card_radius": 20,
+        "card_border_thickness": 3,
+        "card_shadow": false,
+        "media_radius": 12,
+        "media_border_thickness": 0,
+        "media_ratio": "square",
+        "media_ratio_mobile": "square",
+        "content_padding_vertical": 0,
+        "content_padding_vertical_mobile": 0,
+        "content_padding_horizontal": 0,
+        "content_padding_horizontal_mobile": 0,
+        "hide_content": false,
+        "stars_size": 16,
+        "stars_mt": 12,
+        "stars_align": "center",
+        "stars_align_mobile": "center",
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 16,
+        "text_size_mobile": 16,
+        "text_height": 130,
+        "text_mt": 28,
+        "text_align": "center",
+        "text_align_mobile": "center",
+        "author_custom": false,
+        "author_font": "josefin_sans_n4",
+        "author_size": 14,
+        "author_size_mobile": 14,
+        "author_height": 130,
+        "author_mt": 12,
+        "author_align": "center",
+        "author_align_mobile": "center",
+        "navigation_mt": 40,
+        "navigation_gap": 20,
+        "navigation_align": "center",
+        "navigation_align_mobile": "center",
+        "arrow_size": 50,
+        "arrow_size_mobile": 50,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": false,
+        "dots_size": 10,
+        "dots_size_mobile": 10,
+        "dots_show_desktop": false,
+        "dots_show_mobile": true,
+        "btn_icon_size": 50,
+        "btn_icon_size_mobile": 40,
+        "card_bg_color": "#ffffff",
+        "card_bg_gradient": "",
+        "card_border_color": "#a8a9e0",
+        "card_shadow_color": "#000000",
+        "media_border_color": "#000000",
+        "stars_color": "#323232",
+        "text_color": "#323232",
+        "author_color": "#323232",
+        "video_icon_bg_color": "#ffffff",
+        "video_icon_color": "#000000",
+        "arrow_color": "#837c5c",
+        "arrow_hover_color": "#837c5c",
+        "dots_color": "#837c5c",
+        "heading_color": "#000000",
+        "sub_heading_color": "#575757",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "faq_wWfLA7": {
+      "type": "faq",
+      "blocks": {
+        "question_cPrnyY": {
+          "type": "question",
+          "settings": {
+            "title": "Read more",
+            "answer": "<p></p><p>If you’re in perimenopause or menopause and unsure how to care for your changing skin, you're not alone - and we’re here to help.</p><p>The upgraded DermaGlow Version 2 took over a year to perfect - with 30 prototypes, and input from dermatologists with over 120 years of combined experience.</p><p>We know what skin at this stage of life needs. That's how we know you will look younger, within 60 days, if you use the DermaGlow V2 as advised.</p><p>We're so confident - we'll refund you in full if you're not impressed with your results.</p><p>We asked 500 real customers (all women aged 40-50) why they chose the DermaGlow V2. <a href=\"/pages/5-reasons-why-women-aged-40-50-are-switching-to-the-dermaglow-v2-mask\" target=\"_blank\" title=\"5 Reasons Women Aged 40-50 are Switching to the DermaGlow V2 Mask\"><strong>Read the blog here.</strong></a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_cPrnyY"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".faq__item {background: #e5e5e5;}"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "show_navigation": false,
+        "title": "LOOK 5 YEARS YOUNGER IN 60 DAYS OR YOUR MONEY BACK",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "slideshow_4azhtm": {
+      "type": "slideshow",
+      "blocks": {
+        "image_mP6paN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DG_Glasses_benefits_fd0d6e39-1b5c-4c70-a24e-5ebd6f73a32b.png",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_mP6paN"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "faq_WwaXBM": {
+      "type": "faq",
+      "blocks": {
+        "category_XqgLVa": {
+          "type": "category",
+          "settings": {
+            "title": "Details"
+          }
+        },
+        "question_xbLpNK": {
+          "type": "question",
+          "settings": {
+            "title": "Description",
+            "answer": "<p></p><p><strong>Brighten & rejuvenate your eyes with Red Light & EMS technology</strong><br/><br/>Introducing Acid Eclipse™ DermaGlow Glasses; a cutting-edge, at-home treatment designed to reduce the appearance of under-eye bags and puffiness, brighten dark circles, smooth fine lines, and soothe the delicate skin around the eyes. Clinically backed red light and EMS technology work together to not only target visible signs of ageing, but also help calm eczema-related irritation, dryness, and redness often triggered by hormonal changes, all in just 5-20 minutes, five times a week.<br/><strong><br/>The science of youthful eyes</strong><br/><br/>Our DermaGlow glasses combine two powerful technologies:<br/><br/><strong>Red & Infrared Light Therapy: </strong>Penetrates deep into the skin to stimulate collagen production, improve circulation, and reduce discoloration, making under-eyes appear brighter and whilst firming sagging skin.<br/><br/><strong>EMS (Electronic Muscle Stimulation) Microcurrents: </strong>Targets sagging skin by using electrical currents to gently contract the orbicularis oculi (eye muscles), helping to firm, lift, and depuff the under-eye area for a more sculpted appearance.<br/><br/>With two EMS modes (constant & pulse) and three intensity levels, you can customise your treatment based on your skin’s needs and the severity of your eye bags, wrinkles and dark circles.<br/><br/><strong>Your at-home under-eye solution</strong><br/><br/><strong>Two powerful therapies in one device: </strong>Red and infrared light therapy helps reduce dark circles, fine lines and puffiness, while EMS microcurrents work to lift & tighten.<br/><br/><strong>Customisable & comfortable:</strong> Choose from two EMS modes (constant or pulse) and three intensity levels to find the perfect setting for your skin.<br/><br/><strong>Visible results with consistent use:</strong> Most users see a difference in as little as two weeks, with continued improvements over time.<br/><br/><strong>Cordless & rechargeable: </strong>Designed for convenience, the lightweight, wireless design lets you use it anywhere, anytime without the need for a power outlet.<br/><br/><strong>Gentle yet effective: </strong>Treatments are non-invasive & pain-free, making this the perfect addition to your daily skincare routine regardless of your skin type or sensitivity level.<br/><br/><em>Experience brighter, smoother & more awake looking eyes<br/></em><br/>With consistent use (5-20 minutes, five times a week), the Acid Eclipse™ DermaGlow Glasses are your at-home solution for reducing eye bags, dark circles, and fine lines and improving the health of dry, red flaky skin, often triggered by hormonal changes like perimenopause - no needles, no downtime, just results.</p>"
+          }
+        },
+        "question_ibXPy8": {
+          "type": "question",
+          "settings": {
+            "title": "How to use",
+            "answer": "<p><strong>Charging: </strong>Insert the USB cable into the port at the bottom of the glasses. While charging, the indicator lights will flash red. When the device is fully charged the indicator lights will turn green.</p><p><strong>1 - Cleanse Your Face:</strong> Start with a freshly cleansed, makeup-free face.<br/><br/><strong>2 - Apply Serum: </strong>Apply a thin layer of your favourite serum to your under-eyes and the sides of your eyes. EMS is less effective on dry skin, so ensure your skin stays hydrated. <br/><br/><strong>3 - Turn On the Device:</strong> Long press the On/Off button to power on your DermaGlow glasses. The LED light at the bottom will turn red.<br/><br/><strong>4 - Select EMS Mode:</strong> Short press the On/Off button to switch between the two EMS frequency settings - constant and pulse.<br/><br/><strong>5 - Adjust Intensity: </strong>Short press the intensity button to choose from three EMS intensity levels. Always start on the lowest setting and increase as needed.<br/><br/><strong>6 - Begin Treatment: </strong>Place the device under your eyes, on the bridge of your nose (as you would any pair of glasses) and relax. Use for 5-20 minutes, up to five times per week, for best results.<br/><br/><strong>7 - Turn Off & Clean: </strong>Long press the On/Off button to turn off the device. Wipe clean with a slightly damp cloth before storing.</p><p><em>For best results, continue with your skincare routine and apply serums, toners, and moisturisers after treatment.</em></p>"
+          }
+        },
+        "question_KyeTi4": {
+          "type": "question",
+          "settings": {
+            "title": "Specifications",
+            "answer": "<p><strong>Technology:</strong> EMS and LED red/infrared light therapy</p><p><strong>Helps with:</strong> Fine lines, wrinkles, dark circles, puffiness and increasing production of collagen around the eyes</p><p><strong>Intensity settings: </strong>Three (low, medium, high)</p><p><strong>Vibration modes:</strong> Constant and pulse</p><p><strong>Power source: </strong>USB-C rechargeable</p><p><strong>Material: </strong>Plastic (acetate)</p><p><strong>Size: </strong>One-sizeUsage: Hands free and self timed</p><p><strong>Certification: </strong>UKCA, CE & FDA approved</p>"
+          }
+        },
+        "question_dhQ476": {
+          "type": "question",
+          "settings": {
+            "title": "What's in the box",
+            "answer": "<p></p><ul><li>Acid Eclipse™  DermaGlow Glasses</li><li>Charging cable</li><li>Cleaning cloth</li><li>User guide</li></ul>"
+          }
+        },
+        "category_ifJFKM": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping & Returns"
+          }
+        },
+        "question_7JHQWQ": {
+          "type": "question",
+          "settings": {
+            "title": "Shipping",
+            "answer": "<p></p><p><strong>Shipping times</strong><br/><br/>We offer <strong>Free Tracked Shipping</strong> (4-7 working days)<strong> </strong>on all orders over a certain price. This price depends on your currency however for reference, shipping will be free if you spend £39 (UK), $50 (USA) or $80 AUD (Australia).</p><p><strong>Processing times</strong></p><p>Orders placed before 14:00 am are guaranteed to be shipped same day (Mon-Sat). Orders placed after this time will be shipped the following day.</p><p><strong>Info</strong></p><p>We hold stock in the UK, US and Australia, so no matter where you are in the world, we can get your order to you. </p><p>Our team is here for you. Feel free to <a href=\"/pages/contact\" target=\"_blank\" title=\"Contact us\">contact us </a>if you have any questions about shipping.</p>"
+          }
+        },
+        "question_D8TC4T": {
+          "type": "question",
+          "settings": {
+            "title": "Returns & Warranty",
+            "answer": "<p></p><p>We offer a 60-day, no-risk, Happiness Guarantee. Try out your DermaGlow for yourself; and if you aren’t 100% happy with your purchase, return it within 60 days for a full refund, no questions asked.</p><p>Please return items to:</p><p><strong>Acid Eclipse Office, 8 Chainey Pieces, Haverhill, Suffolk, CB9 8BG, United Kingdom</strong></p><p>The Acid Eclipse™ DermaGlow V2 LED Mask also comes with a full year manufacturers warranty. If anything goes wrong with your mask in the first year after purchase, we'll replace it for free.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_XqgLVa",
+        "question_xbLpNK",
+        "question_ibXPy8",
+        "question_KyeTi4",
+        "question_dhQ476",
+        "category_ifJFKM",
+        "question_7JHQWQ",
+        "question_D8TC4T"
+      ],
+      "custom_css": [
+        "h1.heading.h2 {font-size: 20px !important;}"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "show_navigation": false,
+        "title": "Useful information",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ss_scrolling_logo_cloud_LaB6Ut": {
+      "type": "ss-scrolling-logo-cloud",
+      "blocks": {
+        "slide_nKDb8F": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/1_35b5a3e8-0bc9-47b4-b12b-d77b3a48a222.png",
+            "link": ""
+          }
+        },
+        "slide_rB3GxP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/5_01f84d14-e60b-4c92-b04d-8b06f36b5365.png",
+            "link": ""
+          }
+        },
+        "slide_CLQ3er": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/4_a7d7c008-369c-40ad-a50e-9f225c630edc.png",
+            "link": ""
+          }
+        },
+        "slide_BVxat9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_168a66f5-93e2-49a0-acf8-aed33659794c.png",
+            "link": ""
+          }
+        },
+        "slide_m8TT7L": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/3_1eedd454-ed46-4e9e-b763-3e80d54fce47.png",
+            "link": ""
+          }
+        },
+        "slide_W3qLQ3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/6_90da75f7-c825-4382-b524-0453cca9de10.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_nKDb8F",
+        "slide_rB3GxP",
+        "slide_CLQ3er",
+        "slide_BVxat9",
+        "slide_m8TT7L",
+        "slide_W3qLQ3"
+      ],
+      "disabled": true,
+      "name": "SS - Scrolling Logo Cloud",
+      "settings": {
+        "ss-title": "",
+        "heading_custom": false,
+        "heading_font": "assistant_n4",
+        "header_size": 0,
+        "header_align": "center",
+        "scrolling_velocity": 24,
+        "pause_hover": false,
+        "shadow": false,
+        "sliders_mt": 0,
+        "logo_padding_top": 0,
+        "logo_padding_bottom": 0,
+        "slider_gap": 30,
+        "slider_gap_mobile": 30,
+        "slider_direction": "left",
+        "icon_width": 100,
+        "header_color": "#121212",
+        "border_color": "#ffffff",
+        "background-color": "#ffffff",
+        "slider-background-color": "#ffffff",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "dc5b6ad0-3ba5-42ba-a301-2d6b84702967": {
+          "type": "trust",
+          "settings": {
+            "icon_1": "picto-chat",
+            "title_1": "Shipping & Returns",
+            "content_1": "<p>Add text about your shipping policy</p>",
+            "icon_2": "picto-warranty",
+            "title_2": "Warranty",
+            "content_2": "<p>Add text about your product warranty</p>",
+            "icon_3": "picto-secure-payment",
+            "title_3": "Secure Payment",
+            "content_3": "<p>Add text about your payment</p>"
+          }
+        }
+      },
+      "block_order": [
+        "description",
+        "dc5b6ad0-3ba5-42ba-a301-2d6b84702967"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "product_recommendations_7czcDR": {
+      "type": "product-recommendations",
+      "custom_css": [
+        "product-recommendations .container {padding-top: 20px; padding-bottom: 20px;}"
+      ],
+      "name": "Related products",
+      "settings": {
+        "subheading": "",
+        "title": "Frequently bought together",
+        "recommendations_count": 4,
+        "background": "#f3f3f3",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "170103446944ead705": {
+      "type": "apps",
+      "blocks": {
+        "air_product_reviews_app_block_review_list_P7KAbP": {
+          "type": "shopify://apps/air-product-reviews/blocks/app-block-review-list/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
+          "settings": {
+            "air_blockreviews_summaryHeading": "Reviews",
+            "air_blockreviews_layout": "list",
+            "air_blockreviews_singleStarColor": "#16a086",
+            "air_blockreviews_primaryColor": "#121212"
+          }
+        }
+      },
+      "block_order": [
+        "air_product_reviews_app_block_review_list_P7KAbP"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ss_product_videos_4_BkaDBJ",
+    "ss_before_after_image_e7cBBW",
+    "ss_delivery_timer_jJzCLN",
+    "ss_testimonial_12_xj7gFi",
+    "faq_wWfLA7",
+    "slideshow_4azhtm",
+    "faq_WwaXBM",
+    "ss_scrolling_logo_cloud_LaB6Ut",
+    "product-content",
+    "product_recommendations_7czcDR",
+    "170103446944ead705"
+  ]
+}
