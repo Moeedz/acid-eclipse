@@ -233,8 +233,8 @@
           "type": "text",
           "settings": {
             "subheading": "",
-            "heading": "CONSISTENT USE RESULT",
-            "content": "<p>Consistent use of our Bio-Collagen Real Deep Mask (once per week) has been proven to improve hydration and complexion whilst reducing the appearance of fine lines, wrinkles, pores, scarring and uneven pigmentation in 91% of the 200 women surveyed.</p>",
+            "heading": "Real results",
+            "content": "<p>Consistent use of Tighten & Lift Neck cream (twice daily) has been proven to reduce sagging skin, the appearance of fine lines and wrinkles and uneven pigmentation in 89% of the 258 women surveyed.</p>",
             "text_position": "center",
             "color": "#000000"
           }
@@ -245,9 +245,9 @@
             "desktop_height": 500,
             "mobile_height": 400,
             "border_radius": 26,
-            "before_image": "shopify://shop_images/2-min.png",
-            "after_image": "shopify://shop_images/1-min.png",
-            "cover": true,
+            "before_image": "shopify://shop_images/1_858de562-48ac-4fe5-83cb-978fa40821a8.png",
+            "after_image": "shopify://shop_images/2_b63442d1-9987-4938-9075-9a7b62c3923f.png",
+            "cover": false,
             "before_text": "Before",
             "after_text": "After 4 weeks",
             "before_text_color": "#ffffff",
