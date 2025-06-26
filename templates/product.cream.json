@@ -12,6 +12,10 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "air_product_reviews_app_summary_block_Vz9jY4": {
+          "type": "shopify://apps/air-product-reviews/blocks/app-summary-block/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
+          "settings": {}
+        },
         "description_gLVVbJ": {
           "type": "description",
           "settings": {}
@@ -48,6 +52,7 @@
         }
       },
       "block_order": [
+        "air_product_reviews_app_summary_block_Vz9jY4",
         "description_gLVVbJ",
         "variant_picker",
         "quantity_selector_YVyjEc",
