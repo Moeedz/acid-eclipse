@@ -352,6 +352,107 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "ss_video_with_text_d3XJWR": {
+      "type": "ss-video-with-text",
+      "blocks": {
+        "heading_LCiiqn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Go Pure™ Tighten & Lift Neck Cream - 50ml",
+            "heading_custom": false,
+            "heading_font": "assistant_n4",
+            "header_size": 32,
+            "font_weight": "600",
+            "heading_height": 130,
+            "heading_mt": 0,
+            "heading_color": "#121212"
+          }
+        },
+        "text_V3ibNE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The viral, award winning Tighten and Lift Neck Cream features a patented blend; specifically created to moisturise, firm and smooth the look of the delicate skin on your neck and chest.</p>",
+            "text_custom": false,
+            "text_font": "assistant_n4",
+            "text_size": 18,
+            "text_height": 150,
+            "text_mt": 0,
+            "text_color": "#121212"
+          }
+        },
+        "button_dxMnNi": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": "",
+            "button_custom": false,
+            "button_font": "assistant_n4",
+            "button_size": 16,
+            "button_height": 100,
+            "button_style": "button",
+            "button_padding_horizontal": 32,
+            "button_padding_vertical": 16,
+            "button_radius": 100,
+            "button_border_thickness": 1,
+            "button_mt": 12,
+            "use_arrow": true,
+            "button_text_color": "#ffffff",
+            "button_text_hover_color": "#ffffff",
+            "button_color": "#121212",
+            "button_hover_color": "#121212",
+            "button_border_color": "#121212",
+            "button_border_hover_color": "#121212"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LCiiqn",
+        "text_V3ibNE",
+        "button_dxMnNi"
+      ],
+      "name": "SS - Video with text #1",
+      "settings": {
+        "media": "video",
+        "image_height": "adapt",
+        "desktop_image_width": "50",
+        "image_radius": 20,
+        "layout": "image_first",
+        "video": "shopify://files/videos/46f758bead9c43d8befc32fddaada8a9.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "icon_play_size": 30,
+        "video_controls": true,
+        "video_autoplay": true,
+        "video_loop": true,
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "center",
+        "content_padding_top": 36,
+        "content_padding_bottom": 0,
+        "content_padding_horizontal": 5,
+        "content_padding_horizontal_mobile": 1.5,
+        "content_spacing": 18,
+        "wrapper_border": false,
+        "content_border_thickness": 1,
+        "border_radius": 20,
+        "padding_inside": 20,
+        "shadow": false,
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#121212",
+        "content_background_color": "#ffffff",
+        "content_border_color": "#D3D3D3",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "content_layout": false,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
     "ss_delivery_timer_jJzCLN": {
       "type": "ss-delivery-timer",
       "blocks": {
@@ -665,6 +766,7 @@
     "ss_product_videos_4_BkaDBJ",
     "ss_before_after_image_e7cBBW",
     "faq_WwaXBM",
+    "ss_video_with_text_d3XJWR",
     "ss_delivery_timer_jJzCLN",
     "ss_testimonial_12_xj7gFi",
     "product-content",
