@@ -570,6 +570,7 @@
       "block_order": [
         "question_cPrnyY"
       ],
+      "disabled": true,
       "custom_css": [
         ".faq__item {background: #e5e5e5;}"
       ],
@@ -588,7 +589,7 @@
         "image_mP6paN": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/DG_V2_benefits_b62cd67e-a19a-4136-8683-c0492697667f.png",
+            "image": "shopify://shop_images/DG_Glasses_benefits_fd0d6e39-1b5c-4c70-a24e-5ebd6f73a32b.png",
             "text_position": "middle_center",
             "subheading": "",
             "title": "",
@@ -614,91 +615,6 @@
         "autoplay": true,
         "cycle_speed": 5,
         "background": "rgba(0,0,0,0)"
-      }
-    },
-    "ss_scrolling_logo_cloud_LaB6Ut": {
-      "type": "ss-scrolling-logo-cloud",
-      "blocks": {
-        "slide_nKDb8F": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/1_35b5a3e8-0bc9-47b4-b12b-d77b3a48a222.png",
-            "link": ""
-          }
-        },
-        "slide_rB3GxP": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/5_01f84d14-e60b-4c92-b04d-8b06f36b5365.png",
-            "link": ""
-          }
-        },
-        "slide_CLQ3er": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/4_a7d7c008-369c-40ad-a50e-9f225c630edc.png",
-            "link": ""
-          }
-        },
-        "slide_BVxat9": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Untitled_design_168a66f5-93e2-49a0-acf8-aed33659794c.png",
-            "link": ""
-          }
-        },
-        "slide_m8TT7L": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/3_1eedd454-ed46-4e9e-b763-3e80d54fce47.png",
-            "link": ""
-          }
-        },
-        "slide_W3qLQ3": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/6_90da75f7-c825-4382-b524-0453cca9de10.png",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_nKDb8F",
-        "slide_rB3GxP",
-        "slide_CLQ3er",
-        "slide_BVxat9",
-        "slide_m8TT7L",
-        "slide_W3qLQ3"
-      ],
-      "name": "SS - Scrolling Logo Cloud",
-      "settings": {
-        "ss-title": "",
-        "heading_custom": false,
-        "heading_font": "assistant_n4",
-        "header_size": 0,
-        "header_align": "center",
-        "scrolling_velocity": 24,
-        "pause_hover": false,
-        "shadow": false,
-        "sliders_mt": 0,
-        "logo_padding_top": 0,
-        "logo_padding_bottom": 0,
-        "slider_gap": 30,
-        "slider_gap_mobile": 30,
-        "slider_direction": "left",
-        "icon_width": 100,
-        "header_color": "#121212",
-        "border_color": "#ffffff",
-        "background-color": "#ffffff",
-        "slider-background-color": "#ffffff",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "full_width": true,
-        "content_width": 120,
-        "border_thickness": 0,
-        "lazy": true
       }
     },
     "faq_WwaXBM": {
@@ -797,6 +713,92 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "ss_scrolling_logo_cloud_LaB6Ut": {
+      "type": "ss-scrolling-logo-cloud",
+      "blocks": {
+        "slide_nKDb8F": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/1_35b5a3e8-0bc9-47b4-b12b-d77b3a48a222.png",
+            "link": ""
+          }
+        },
+        "slide_rB3GxP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/5_01f84d14-e60b-4c92-b04d-8b06f36b5365.png",
+            "link": ""
+          }
+        },
+        "slide_CLQ3er": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/4_a7d7c008-369c-40ad-a50e-9f225c630edc.png",
+            "link": ""
+          }
+        },
+        "slide_BVxat9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_168a66f5-93e2-49a0-acf8-aed33659794c.png",
+            "link": ""
+          }
+        },
+        "slide_m8TT7L": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/3_1eedd454-ed46-4e9e-b763-3e80d54fce47.png",
+            "link": ""
+          }
+        },
+        "slide_W3qLQ3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/6_90da75f7-c825-4382-b524-0453cca9de10.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_nKDb8F",
+        "slide_rB3GxP",
+        "slide_CLQ3er",
+        "slide_BVxat9",
+        "slide_m8TT7L",
+        "slide_W3qLQ3"
+      ],
+      "disabled": true,
+      "name": "SS - Scrolling Logo Cloud",
+      "settings": {
+        "ss-title": "",
+        "heading_custom": false,
+        "heading_font": "assistant_n4",
+        "header_size": 0,
+        "header_align": "center",
+        "scrolling_velocity": 24,
+        "pause_hover": false,
+        "shadow": false,
+        "sliders_mt": 0,
+        "logo_padding_top": 0,
+        "logo_padding_bottom": 0,
+        "slider_gap": 30,
+        "slider_gap_mobile": 30,
+        "slider_direction": "left",
+        "icon_width": 100,
+        "header_color": "#121212",
+        "border_color": "#ffffff",
+        "background-color": "#ffffff",
+        "slider-background-color": "#ffffff",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
     "product-content": {
       "type": "product-content",
       "blocks": {
@@ -870,8 +872,8 @@
     "ss_testimonial_12_xj7gFi",
     "faq_wWfLA7",
     "slideshow_4azhtm",
-    "ss_scrolling_logo_cloud_LaB6Ut",
     "faq_WwaXBM",
+    "ss_scrolling_logo_cloud_LaB6Ut",
     "product-content",
     "product_recommendations_7czcDR",
     "170103446944ead705"
