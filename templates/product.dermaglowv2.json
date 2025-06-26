@@ -12,6 +12,16 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "air_product_reviews_app_summary_block_fDY3mH": {
+          "type": "shopify://apps/air-product-reviews/blocks/app-summary-block/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
+          "settings": {}
+        },
+        "text_eLfjwL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This lightweight mask delivers flawless illumination through 504 LEDs in nine rejuvenating wavelengths. Including near-infrared (840nm) and deep near-infrared (1072nm), to visibly reduce wrinkles, lift sagging, and tackle hormonal rosacea, eczema and acne - in just 5 minutes a day.</p>"
+          }
+        },
         "description_gLVVbJ": {
           "type": "description",
           "settings": {}
@@ -48,6 +58,8 @@
         }
       },
       "block_order": [
+        "air_product_reviews_app_summary_block_fDY3mH",
+        "text_eLfjwL",
         "description_gLVVbJ",
         "variant_picker",
         "quantity_selector_YVyjEc",
@@ -112,6 +124,7 @@
         "video_7pjFKU",
         "video_36ib4G"
       ],
+      "disabled": true,
       "name": "SS - Product videos #4",
       "settings": {
         "videos_position": "above_buy",
