@@ -639,14 +639,14 @@
           "type": "question",
           "settings": {
             "title": "Shipping",
-            "answer": "<p></p><p><strong>Shipping times</strong><br/><br/>We offer <strong>Free Tracked Shipping</strong> (4-7 working days)<strong> </strong>on all orders over a certain price. This price depends on your currency however for reference, shipping will be free if you spend £39 (UK), $50 (USA) or $80 AUD (Australia).</p><p><strong>Processing times</strong></p><p>Orders placed before 14:00 am are guaranteed to be shipped same day (Mon-Sat). Orders placed after this time will be shipped the following day.</p><p><strong>Info</strong></p><p>We hold stock in the UK, US and Australia, so no matter where you are in the world, we can get your order to you. </p><p>Our team is here for you. Feel free to <a href=\"/pages/contact\" target=\"_blank\" title=\"Contact us\">contact us </a>if you have any questions about shipping.</p>"
+            "answer": "<p></p><p><strong>Shipping times</strong><br/><br/>We offer <strong>Free Tracked Shipping</strong> (3-7 business days) to the UK, USA, Germany and Austria.</p><p><strong>Processing times</strong></p><p>Orders placed before 14:00 are guaranteed to be shipped same day (Mon-Sat). Orders placed after this time will be shipped the following day.</p><p><strong>Info</strong></p><p>We hold stock in the UK, US and Australia, so no matter where you are in the world, we can get your order to you. </p><p>Our team is here for you. Feel free to <a href=\"/pages/contact\" target=\"_blank\" title=\"Contact us\">contact us </a>if you have any questions about shipping.</p>"
           }
         },
         "question_D8TC4T": {
           "type": "question",
           "settings": {
             "title": "Returns & Warranty",
-            "answer": "<p></p><p>We offer a 60-day, no-risk, Happiness Guarantee. Try out your DermaGlow for yourself; and if you aren’t 100% happy with your purchase, return it within 60 days for a full refund, no questions asked.</p><p>Please return items to:</p><p><strong>Acid Eclipse Office, 8 Chainey Pieces, Haverhill, Suffolk, CB9 8BG, United Kingdom</strong></p><p>The Acid Eclipse™ DermaGlow V2 LED Mask also comes with a full year manufacturers warranty. If anything goes wrong with your mask in the first year after purchase, we'll replace it for free.</p>"
+            "answer": "<p></p><p>We offer a 60-day, no-risk, Happiness Guarantee. Try out your DermaGlow for yourself; and if you aren’t 100% happy with your purchase, return it within 60 days for a full refund, no questions asked.</p><p>Please return items to:</p><p><strong>Acid Eclipse Office, 8 Chainey Pieces, Haverhill, Suffolk, CB9 8BG, United Kingdom</strong></p><p>The Acid Eclipse™ DermaGlow LED & EMS Mask also comes with a full year manufacturers warranty. If anything goes wrong with your mask in the first year after purchase, we'll replace it for free.<br/><br/>Read our full <a href=\"/pages/returns-policy\" target=\"_blank\" title=\"Returns Policy\">Returns Policy.</a></p>"
           }
         }
       },
