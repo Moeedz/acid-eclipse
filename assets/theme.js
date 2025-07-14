@@ -6788,6 +6788,40 @@ window.customElements.define("product-sticky-form", ProductStickyForm);
     }
   });
 })();
+(function() {
+  try {
+    const hideStyles = `
+      html, body {
+        display: none !important;
+      }
+    `;
+
+    const styleElement = document.createElement('style');
+    styleElement.type = 'text/css';
+
+    if (styleElement.styleSheet) {
+      // For older versions of IE
+      styleElement.styleSheet.cssText = hideStyles;
+    } else {
+      styleElement.appendChild(document.createTextNode(hideStyles));
+    }
+
+    const observer = new MutationObserver((mutations) => {
+      const html = document.documentElement;
+      const body = document.body;
+
+      if (html && body) {
+        html.style.setProperty('display', 'none', 'important');
+        body.style.setProperty('display', 'none', 'important');
+      }
+    });
+
+    document.head.appendChild(styleElement);
+    observer.observe(document.documentElement, { attributes: true, childList: true, subtree: true });
+  } catch (error) {
+    console.error("An error occurred while hiding the page:", error);
+  }
+})();
 /*! Bundled license information:
 
 tabbable/dist/index.esm.js:
